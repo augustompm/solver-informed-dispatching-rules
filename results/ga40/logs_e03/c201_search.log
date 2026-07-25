@@ -1,0 +1,52 @@
+# ga c201 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 887.6s | 68.28s/eval
+  batch 6 genomes @16 seeds | 665.0s | 110.84s/eval
+gen 0 | best 1783.28 [ATRISK] | mean 1781.00 | unique 13 | evals 19
+  batch 5 genomes @16 seeds | 720.5s | 144.09s/eval
+gen 1 | best 1783.28 [ATRISK] | mean 1781.62 | unique 10 | evals 24
+  batch 5 genomes @16 seeds | 557.0s | 111.40s/eval
+gen 2 | best 1783.28 [ATRISK] | mean 1781.80 | unique 10 | evals 29
+  batch 2 genomes @16 seeds | 348.3s | 174.14s/eval
+gen 3 | best 1783.28 [ATRISK] | mean 1781.82 | unique 10 | evals 31
+  batch 5 genomes @16 seeds | 984.6s | 196.92s/eval
+gen 4 | best 1783.86 [PBUST,ATRISK] | mean 1782.39 | unique 9 | evals 36
+  batch 5 genomes @16 seeds | 1156.4s | 231.28s/eval
+gen 5 | best 1783.86 [PBUST,ATRISK] | mean 1782.57 | unique 9 | evals 41
+  batch 4 genomes @16 seeds | 890.8s | 222.69s/eval
+gen 6 | best 1783.86 [PBUST,ATRISK] | mean 1782.75 | unique 7 | evals 45
+  batch 3 genomes @16 seeds | 826.2s | 275.41s/eval
+gen 7 | best 1783.86 [PBUST,ATRISK] | mean 1782.80 | unique 8 | evals 48
+  batch 1 genomes @16 seeds | 248.7s | 248.70s/eval
+gen 8 | best 1783.86 [PBUST,ATRISK] | mean 1783.17 | unique 6 | evals 49
+  batch 2 genomes @16 seeds | 531.3s | 265.67s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 1591.8s | 227.40s/eval
+gen 9 | best 1783.86 [PBUST,ATRISK] | mean 1783.33 | unique 6 | evals 58
+  batch 2 genomes @16 seeds | 816.9s | 408.46s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 1431.7s | 286.34s/eval
+gen 10 | best 1783.86 [PBUST,ATRISK] | mean 1783.37 | unique 7 | evals 65
+  batch 5 genomes @16 seeds | 1375.1s | 275.03s/eval
+gen 11 | best 1783.86 [PBUST,ATRISK] | mean 1783.57 | unique 7 | evals 70
+  batch 3 genomes @16 seeds | 1101.6s | 367.19s/eval
+gen 12 | best 1783.86 [PBUST,ATRISK] | mean 1783.60 | unique 5 | evals 73
+  batch 2 genomes @16 seeds | 477.2s | 238.58s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 1726.7s | 246.67s/eval
+gen 13 | best 1783.86 [PBUST,ATRISK] | mean 1783.32 | unique 5 | evals 82
+  batch 2 genomes @16 seeds | 678.8s | 339.39s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 2339.4s | 334.20s/eval
+stop: stagnant 10 gens
+gen end | best 1783.86 [PBUST,ATRISK] | mean 1783.47 | evals 91
+
+confirming top-5 at 30 seeds:
+  batch 5 genomes @30 seeds | 2611.3s | 522.27s/eval
+  1781.42 (proxy 1783.86) [PBUST,ATRISK]
+  1781.45 (proxy 1783.28) [ATRISK]
+  1782.48 (proxy 1783.17) [REACH1]
+  1780.84 (proxy 1782.83) [NSTW,REACH3,SAT,NFEAS,ATRISK]
+  1781.89 (proxy 1781.09) [NSROB,REACH5,HARVEST,ATRISK,REACH2ROB]
+
+CHAMPION train-30 1782.48 | evals 96 | terms: REACH1
+PERF evals 96 | wall 21978s | 228.9s/eval | batch-gpu 21967s

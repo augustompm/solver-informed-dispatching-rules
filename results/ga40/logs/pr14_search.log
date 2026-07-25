@@ -1,0 +1,42 @@
+# cache logs/pr14.evcache | 145 entries loaded
+# ga pr14 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+gen 0 | best 1215.31 [REACH5] | mean 1198.45 | unique 13 | evals 0
+gen 1 | best 1215.31 [REACH5] | mean 1201.20 | unique 11 | evals 0
+gen 2 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1206.11 | unique 9 | evals 0
+gen 3 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1208.27 | unique 9 | evals 0
+gen 4 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1209.30 | unique 10 | evals 0
+gen 5 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1211.97 | unique 8 | evals 0
+gen 6 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1214.27 | unique 6 | evals 0
+  reinject 2
+gen 7 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1216.52 | unique 6 | evals 0
+  reinject 2
+gen 8 | best 1219.52 [NSROB,REACH5,VFRAC] | mean 1215.96 | unique 6 | evals 0
+  reinject 2
+gen 9 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1216.89 | unique 6 | evals 0
+  reinject 2
+gen 10 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1214.56 | unique 7 | evals 0
+gen 11 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1217.65 | unique 7 | evals 0
+gen 12 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1218.08 | unique 6 | evals 0
+  reinject 2
+gen 13 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1216.74 | unique 7 | evals 0
+gen 14 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1216.87 | unique 7 | evals 0
+gen 15 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1216.87 | unique 7 | evals 0
+gen 16 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1217.77 | unique 7 | evals 0
+gen 17 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1218.48 | unique 6 | evals 0
+  reinject 2
+gen 18 | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1216.54 | unique 6 | evals 0
+  reinject 2
+stop: stagnant 10 gens
+gen end | best 1220.93 [MAXN,NSTW,REACH3,REACH5] | mean 1217.67 | evals 0
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 15103.6s | 2517.26s/eval
+  1214.40 (proxy 1220.93) [MAXN,NSTW,REACH3,REACH5]
+  1204.32 (proxy 1220.71) [REACH3,REACH5,VFRAC,HARVEST]
+  1214.59 (proxy 1219.52) [NSROB,REACH5,VFRAC]
+  1218.42 (proxy 1217.76) [REACH5,REACH2ROB]
+  1199.97 (proxy 1211.31) [REGRET,NSTW,REACH1,REACH5,SAT,REACH2ROB]
+  1196.70 (proxy 1203.72) [NSROB,REACH2,FRAGCNT,FRAGSCORE,REACH5,SAT,VFRAC,NFEAS,BOLSAO,ATRISK]
+
+CHAMPION train-30 1218.42 | evals 6 | terms: REACH5,REACH2ROB
+PERF evals 6 | wall 15104s | 2517.4s/eval | batch-gpu 15104s

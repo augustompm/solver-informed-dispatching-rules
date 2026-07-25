@@ -1,0 +1,243 @@
+# stage-1 replay start 2026-07-11T16:10:48Z
+== c101 16:10:48 route=c101_cuopt_route_900.json
+instance      c101
+customers     100
+visited       32
+route prize   762.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c102 16:10:48 route=c102_cuopt_route_900.json
+instance      c102
+customers     100
+visited       34
+route prize   861.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c103 16:10:48 route=c103_cuopt_route_900.json
+instance      c103
+customers     100
+visited       34
+route prize   932.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c104 16:10:48 route=c104_cuopt_route_900.json
+instance      c104
+customers     100
+visited       35
+route prize   978.33   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c105 16:10:48 route=c105_cuopt_route_900.json
+instance      c105
+customers     100
+visited       33
+route prize   832.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c201 16:10:48 route=c201_cuopt_route_900.json
+instance      c201
+customers     100
+visited       100
+route prize   1781.33   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c202 16:10:48 route=c202_cuopt_route_900.json
+instance      c202
+customers     100
+visited       100
+route prize   1782.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c203 16:10:48 route=c203_cuopt_route_900.json
+instance      c203
+customers     100
+visited       100
+route prize   1780.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c204 16:10:48 route=c204_cuopt_route_900.json
+instance      c204
+customers     100
+visited       100
+route prize   1785.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== c205 16:10:48 route=c205_cuopt_route_900.json
+instance      c205
+customers     100
+visited       100
+route prize   1795.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r101 16:10:48 route=r101_cuopt_route_900.json
+instance      r101
+customers     100
+visited       22
+route prize   439.63   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r102 16:10:48 route=r102_cuopt_route_900.json
+instance      r102
+customers     100
+visited       31
+route prize   661.80   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r103 16:10:48 route=r103_cuopt_route_900.json
+instance      r103
+customers     100
+visited       31
+route prize   679.10   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r104 16:10:48 route=r104_cuopt_route_900.json
+instance      r104
+customers     100
+visited       35
+route prize   754.20   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r105 16:10:48 route=r105_cuopt_route_900.json
+instance      r105
+customers     100
+visited       28
+route prize   567.43   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r201 16:10:48 route=r201_cuopt_route_900.json
+instance      r201
+customers     100
+visited       98
+route prize   1415.10   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r202 16:10:48 route=r202_cuopt_route_900.json
+instance      r202
+customers     100
+visited       100
+route prize   1420.37   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r203 16:10:48 route=r203_cuopt_route_900.json
+instance      r203
+customers     100
+visited       100
+route prize   1430.67   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r204 16:10:48 route=r204_cuopt_route_900.json
+instance      r204
+customers     100
+visited       100
+route prize   1429.17   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== r205 16:10:48 route=r205_cuopt_route_900.json
+instance      r205
+customers     100
+visited       100
+route prize   1443.00   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc101 16:10:48 route=rc101_cuopt_route_900.json
+instance      rc101
+customers     100
+visited       27
+route prize   585.03   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc102 16:10:48 route=rc102_cuopt_route_900.json
+instance      rc102
+customers     100
+visited       28
+route prize   659.33   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc103 16:10:48 route=rc103_cuopt_route_900.json
+instance      rc103
+customers     100
+visited       31
+route prize   694.17   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc104 16:10:48 route=rc104_cuopt_route_900.json
+instance      rc104
+customers     100
+visited       32
+route prize   782.60   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc105 16:10:48 route=rc105_cuopt_route_900.json
+instance      rc105
+customers     100
+visited       29
+route prize   610.57   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc201 16:10:48 route=rc201_cuopt_route_900.json
+instance      rc201
+customers     100
+visited       95
+route prize   1658.70   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc202 16:10:48 route=rc202_cuopt_route_900.json
+instance      rc202
+customers     100
+visited       100
+route prize   1683.70   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc203 16:10:48 route=rc203_cuopt_route_900.json
+instance      rc203
+customers     100
+visited       100
+route prize   1688.47   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc204 16:10:48 route=rc204_cuopt_route_900.json
+instance      rc204
+customers     100
+visited       100
+route prize   1710.17   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+== rc205 16:10:48 route=rc205_cuopt_route_900.json
+instance      rc205
+customers     100
+visited       99
+route prize   1683.53   (under random service, held-out seed)
+
+A quick solve gives a feasible route. The full reference gap in results/ used
+the paper's time budget, minutes per instance, and cuOpt on GPU.
+# stage-1 replay end 2026-07-11T16:10:48Z
+S1_REPLAY_DONE

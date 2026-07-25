@@ -1,0 +1,138 @@
+tree (+ (min (- (+ (- DUR TSV) (+ SCORE SCORE)) TC) SCORE) (+ (+ SCORE SCORE) (min SL (min (- DUR TFV) (- (min (- TFV TC) (min SCORE RemT)) TFV)))))
+ops -1 -1 1 -1 -1 0 0 -1 1 -1 4 -1 -1 0 -1 -1 -1 1 -1 -1 1 -1 -1 4 4 -1 1 4 4 0 0
+args 1 0 6 0 0 1 0 0 0 0 3 4 2 5 3 0 6 7 0 0 8 9 0 0 0 0 11 12 8 0 1 0 7 0 15 16 7 0 3 0 18 19 0 0 9 0 21 22 20 23 7 0 24 25 17 26 14 27 13 28 10 29
+tree (min (* SCORE (- (- (max TSV DUR) (- TSV (/ TC TSV))) (+ (min (max (min TFV DUR) (max DUR TSV)) (max (/ TFV TA) (/ DUR SCORE))) (- (min (min (+ NS TC) (min TFV TFV)) (min SL (/ SCORE TSV))) (/ (+ TFV (* SCORE TA)) (* (+ TA RemT) (+ NS TFV))))))) (- (/ NS (min (/ (+ (min (+ DUR NS) TSV) (+ NS RemT)) (/ (* SCORE RemT) (min TFV TFV))) (min RemT (min DUR SCORE)))) (/ (+ (min (- (max TSV DUR) (min TFV DUR)) (/ (- RemT (max NS TFV)) (/ RemT SCORE))) TSV) (/ (* SCORE RemT) (min TFV TFV)))))
+ops -1 -1 -1 5 -1 -1 -1 3 1 1 -1 -1 4 -1 -1 5 5 -1 -1 3 -1 -1 3 5 4 -1 -1 0 -1 -1 4 4 -1 -1 -1 3 4 4 -1 -1 -1 2 0 -1 -1 0 -1 -1 0 2 3 1 0 1 2 -1 -1 -1 0 -1 4 -1 -1 0 0 -1 -1 2 -1 -1 4 3 3 -1 -1 -1 4 4 4 3 -1 -1 5 -1 -1 4 1 -1 -1 -1 5 1 -1 -1 3 3 4 -1 0 -1 -1 2 -1 -1 4 3 3 1 4
+args 0 0 6 0 1 0 1 2 6 0 3 0 6 0 5 6 4 7 3 8 7 0 1 0 10 11 1 0 6 0 13 14 12 15 7 0 4 0 17 18 1 0 0 0 20 21 19 22 16 23 10 0 3 0 25 26 7 0 7 0 28 29 27 30 8 0 0 0 6 0 33 34 32 35 31 36 7 0 0 0 4 0 39 40 38 41 4 0 9 0 43 44 10 0 7 0 46 47 45 48 42 49 37 50 24 51 9 52 0 53 10 0 1 0 10 0 56 57 6 0 58 59 10 0 9 0 61 62 60 63 0 0 9 0 65 66 7 0 7 0 68 69 67 70 64 71 9 0 1 0 0 0 74 75 73 76 72 77 55 78 6 0 1 0 80 81 7 0 1 0 83 84 82 85 9 0 10 0 7 0 88 89 87 90 9 0 0 0 92 93 91 94 86 95 6 0 96 97 0 0 9 0 99 100 7 0 7 0 102 103 101 104 98 105 79 106 54 107
+tree (* (/ SCORE (+ (+ (/ SCORE RemT) (+ TSV SL)) TFV)) (+ (min RemT (/ (+ (+ (+ TSV SL) TFV) (+ (+ TSV SL) TFV)) (/ SCORE (+ TSV SL)))) RemT))
+ops -1 -1 -1 3 -1 -1 0 0 -1 0 3 -1 -1 -1 0 -1 0 -1 -1 0 -1 0 0 -1 -1 -1 0 3 3 4 -1 0 2
+args 0 0 0 0 9 0 1 2 6 0 8 0 4 5 3 6 7 0 7 8 0 9 9 0 6 0 8 0 12 13 7 0 14 15 6 0 8 0 17 18 7 0 19 20 16 21 0 0 6 0 8 0 24 25 23 26 22 27 11 28 9 0 29 30 10 31
+tree (min TO (+ (min (/ (- (/ (- (- TO RemT) (min TA SCORE)) (min TA SCORE)) (min SCORE TC)) (/ (min SCORE TC) (* (* (max TR SCORE) (/ TC SCORE)) TSV))) (/ (- (- NS RemT) (min TA SCORE)) (/ (- NS RemT) (min SCORE TC)))) TC))
+ops -1 -1 -1 1 -1 -1 4 1 -1 -1 4 3 -1 -1 4 1 -1 -1 4 -1 -1 5 -1 -1 3 2 -1 2 3 3 -1 -1 1 -1 -1 4 1 -1 -1 1 -1 -1 4 3 3 4 -1 0 4
+args 2 0 2 0 9 0 1 2 4 0 0 0 4 5 3 6 4 0 0 0 8 9 7 10 0 0 3 0 12 13 11 14 0 0 3 0 16 17 5 0 0 0 19 20 3 0 0 0 22 23 21 24 6 0 25 26 18 27 15 28 10 0 9 0 30 31 4 0 0 0 33 34 32 35 10 0 9 0 37 38 0 0 3 0 40 41 39 42 36 43 29 44 3 0 45 46 0 47
+tree (/ (+ (- (+ (min (min (- TC NS) NS) TC) (/ TO (- RemT TFV))) (max TA (* (- RemT TFV) TSV))) (max (min DUR DUR) DUR)) (+ (+ (* (* (/ SCORE TC) (max NS RemT)) (min DUR DUR)) (* (* (max NS RemT) (+ RemT RemT)) (* (/ SCORE TC) (min (min (max TO DUR) NS) DUR)))) (* (* (max NS RemT) (* (/ SCORE TC) (+ RemT RemT))) (* (/ SCORE TC) (min (max DUR (- TO TA)) (min (* TFV RemT) NS))))))
+ops -1 -1 1 -1 4 -1 4 -1 -1 -1 1 3 0 -1 -1 -1 1 -1 2 5 1 -1 -1 4 -1 5 0 -1 -1 3 -1 -1 5 2 -1 -1 4 2 -1 -1 5 -1 -1 0 2 -1 -1 3 -1 -1 5 -1 4 -1 4 2 2 0 -1 -1 5 -1 -1 3 -1 -1 0 2 2 -1 -1 3 -1 -1 -1 1 5 -1 -1 2 -1 4 4 2 2 0 3
+args 3 0 10 0 0 1 10 0 2 3 3 0 4 5 2 0 9 0 7 0 8 9 7 10 6 11 4 0 9 0 7 0 14 15 6 0 16 17 13 18 12 19 1 0 1 0 21 22 1 0 23 24 20 25 0 0 3 0 27 28 10 0 9 0 30 31 29 32 1 0 1 0 34 35 33 36 10 0 9 0 38 39 9 0 9 0 41 42 40 43 0 0 3 0 45 46 2 0 1 0 48 49 10 0 50 51 1 0 52 53 47 54 44 55 37 56 10 0 9 0 58 59 0 0 3 0 61 62 9 0 9 0 64 65 63 66 60 67 0 0 3 0 69 70 1 0 2 0 4 0 73 74 72 75 7 0 9 0 77 78 10 0 79 80 76 81 71 82 68 83 57 84 26 85
+tree (* (min (* (/ SCORE (min TFV TSV)) (min (/ SCORE TC) (min SCORE (max TSV (min SCORE SCORE))))) (* (+ (min NS SCORE) (min (/ SCORE (/ SCORE (* TC TSV))) (min (/ SCORE TC) (* TC TSV)))) (/ (max TSV (min SCORE SCORE)) (* TC TSV)))) (min (max (- (/ SCORE TSV) (min NS SCORE)) (* TO (min SCORE SCORE))) (* (+ (min NS SCORE) (min (/ SCORE (max TSV (min SCORE SCORE))) (min (/ SCORE TC) SCORE))) (/ (max TSV (min SCORE SCORE)) (* TC TSV)))))
+ops -1 -1 -1 4 3 -1 -1 3 -1 -1 -1 -1 4 5 4 4 2 -1 -1 4 -1 -1 -1 -1 2 3 3 -1 -1 3 -1 -1 2 4 4 0 -1 -1 -1 4 5 -1 -1 2 3 2 4 -1 -1 3 -1 -1 4 1 -1 -1 -1 4 2 5 -1 -1 4 -1 -1 -1 -1 4 5 3 -1 -1 3 -1 4 4 0 -1 -1 -1 4 5 -1 -1 2 3 2 4 2
+args 0 0 7 0 6 0 1 2 0 3 0 0 3 0 5 6 0 0 6 0 0 0 0 0 10 11 9 12 8 13 7 14 4 15 10 0 0 0 17 18 0 0 0 0 3 0 6 0 22 23 21 24 20 25 0 0 3 0 27 28 3 0 6 0 30 31 29 32 26 33 19 34 6 0 0 0 0 0 37 38 36 39 3 0 6 0 41 42 40 43 35 44 16 45 0 0 6 0 47 48 10 0 0 0 50 51 49 52 2 0 0 0 0 0 55 56 54 57 53 58 10 0 0 0 60 61 0 0 6 0 0 0 0 0 65 66 64 67 63 68 0 0 3 0 70 71 0 0 72 73 69 74 62 75 6 0 0 0 0 0 78 79 77 80 3 0 6 0 82 83 81 84 76 85 59 86 46 87
+tree (+ (min (min (min NS (- SCORE TSV)) (min (min NS (- SCORE TSV)) (+ NS RemT))) (+ (min (min (- SCORE TSV) (min NS SCORE)) (* (min NS (min (* SCORE NS) (- SCORE TSV))) (min (* (* SCORE NS) (* TC TR)) (min (- SCORE TSV) (min NS TR))))) (min (* SCORE TA) (+ (min (min TR (- SCORE TSV)) TR) (* (* SCORE NS) (* TC TR)))))) (min NS (+ (min (* (- SCORE (min NS (- SCORE TSV))) (min TC (/ (- SCORE TSV) (max TA DUR)))) (* (min NS (min (* SCORE NS) (- SCORE TSV))) (min (+ (/ SCORE TFV) SL) (/ (max NS TR) (max TA DUR))))) (min (+ (/ SCORE TFV) (- RemT TC)) (/ SCORE TFV)))))
+ops -1 -1 -1 1 4 -1 -1 -1 1 4 -1 -1 0 4 4 -1 -1 1 -1 -1 4 4 -1 -1 -1 2 -1 -1 1 4 4 -1 -1 2 -1 -1 2 2 -1 -1 1 -1 -1 4 4 4 2 4 -1 -1 2 -1 -1 -1 1 4 -1 4 -1 -1 2 -1 -1 2 2 0 4 0 4 -1 -1 -1 -1 -1 1 4 1 -1 -1 -1 1 -1 -1 5 3 4 2 -1 -1 -1 2 -1 -1 1 4 4 -1 -1 3 -1 0 -1 -1 5 -1 -1 5 3 4 2 4 -1 -1 3 -1 -1 1 0 -1 -1 3 4 0 4 0
+args 10 0 0 0 6 0 1 2 0 3 10 0 0 0 6 0 6 7 5 8 10 0 9 0 10 11 9 12 4 13 0 0 6 0 15 16 10 0 0 0 18 19 17 20 10 0 0 0 10 0 23 24 0 0 6 0 26 27 25 28 22 29 0 0 10 0 31 32 3 0 5 0 34 35 33 36 0 0 6 0 38 39 10 0 5 0 41 42 40 43 37 44 30 45 21 46 0 0 4 0 48 49 5 0 0 0 6 0 52 53 51 54 5 0 55 56 0 0 10 0 58 59 3 0 5 0 61 62 60 63 57 64 50 65 47 66 14 67 10 0 0 0 10 0 0 0 6 0 72 73 71 74 70 75 3 0 0 0 6 0 78 79 4 0 1 0 81 82 80 83 77 84 76 85 10 0 0 0 10 0 88 89 0 0 6 0 91 92 90 93 87 94 0 0 7 0 96 97 8 0 98 99 10 0 5 0 101 102 4 0 1 0 104 105 103 106 100 107 95 108 86 109 0 0 7 0 111 112 9 0 3 0 114 115 113 116 0 0 7 0 118 119 117 120 110 121 69 122 68 123
+tree (- (- (/ (/ NS (+ (+ (- DUR (min SL TFV)) SCORE) DUR)) (+ (* (max (min TO TO) (/ RemT NS)) (+ (min TA TO) (* TR TFV))) (/ SL NS))) (+ (+ (* (+ (max TR TO) (- TC SCORE)) (+ (min TFV RemT) (- TSV NS))) (- (max TO (+ NS SL)) (* (min TO SCORE) (max SCORE TR)))) (min (max (min TA TO) (+ (* TFV (max TFV TFV)) (max (* TSV SL) (max TFV TC)))) (* (min TFV RemT) (* (+ TC SCORE) (/ SL TFV)))))) (min (+ (min (- (* (* (+ TC SCORE) (max TFV TFV)) (min TR TSV)) (+ (+ TO SCORE) (max SCORE TR))) (* (/ RemT NS) (max (+ (* TR SCORE) (min TFV RemT)) (max (* SCORE TA) DUR)))) (min (* (+ (* TR SCORE) (/ TO TSV)) (- (+ SL TO) (+ NS SL))) (+ (min (min TC SCORE) (- TO TSV)) (max RemT (max TFV TC))))) (- (min (max (/ (- TSV TC) (/ SL NS)) (/ TO TSV)) (- (+ NS SL) (max (/ SL TC) (- TFV NS)))) (max (* TSV SL) (max TFV TC)))))
+ops -1 -1 -1 -1 4 1 -1 0 -1 0 3 -1 -1 4 -1 -1 3 5 -1 -1 4 -1 -1 2 0 2 -1 -1 3 0 3 -1 -1 5 -1 -1 1 0 -1 -1 4 -1 -1 1 0 2 -1 -1 -1 0 5 -1 -1 4 -1 -1 5 2 1 0 -1 -1 4 -1 -1 -1 5 2 -1 -1 2 -1 -1 5 5 0 5 -1 -1 4 -1 -1 0 -1 -1 3 2 2 4 0 1 -1 -1 0 -1 -1 5 2 -1 -1 4 2 -1 -1 0 -1 -1 5 0 1 -1 -1 3 -1 -1 2 -1 -1 4 0 -1 -1 2 -1 5 5 2 4 -1 -1 2 -1 -1 3 0 -1 -1 0 -1 -1 0 1 2 -1 -1 4 -1 -1 1 4 -1 -1 -1 5 5 0 4 0 -1 -1 1 -1 -1 3 3 -1 -1 3 5 -1 -1 0 -1 -1 3 -1 -1 1 5 1 4 -1 -1 2 -1 -1 5 5 1 4 1
+args 10 0 1 0 8 0 7 0 2 3 1 4 0 0 5 6 1 0 7 8 0 9 2 0 2 0 11 12 9 0 10 0 14 15 13 16 4 0 2 0 18 19 5 0 7 0 21 22 20 23 17 24 8 0 10 0 26 27 25 28 10 29 5 0 2 0 31 32 3 0 0 0 34 35 33 36 7 0 9 0 38 39 6 0 10 0 41 42 40 43 37 44 2 0 10 0 8 0 47 48 46 49 2 0 0 0 51 52 0 0 5 0 54 55 53 56 50 57 45 58 4 0 2 0 60 61 7 0 7 0 7 0 64 65 63 66 6 0 8 0 68 69 7 0 3 0 71 72 70 73 67 74 62 75 7 0 9 0 77 78 3 0 0 0 80 81 8 0 7 0 83 84 82 85 79 86 76 87 59 88 30 89 3 0 0 0 91 92 7 0 7 0 94 95 93 96 5 0 6 0 98 99 97 100 2 0 0 0 102 103 0 0 5 0 105 106 104 107 101 108 9 0 10 0 110 111 5 0 0 0 113 114 7 0 9 0 116 117 115 118 0 0 4 0 120 121 1 0 122 123 119 124 112 125 109 126 5 0 0 0 128 129 2 0 6 0 131 132 130 133 8 0 2 0 135 136 10 0 8 0 138 139 137 140 134 141 3 0 0 0 143 144 2 0 6 0 146 147 145 148 9 0 7 0 3 0 151 152 150 153 149 154 142 155 127 156 6 0 3 0 158 159 8 0 10 0 161 162 160 163 2 0 6 0 165 166 164 167 10 0 8 0 169 170 8 0 3 0 172 173 7 0 10 0 175 176 174 177 171 178 168 179 6 0 8 0 181 182 7 0 3 0 184 185 183 186 180 187 157 188 90 189
+tree (* (+ (min NS NS) (min SCORE (+ (max SCORE NS) (- (- SCORE TSV) TO)))) (* (max (* (min (- SCORE TSV) (* (+ (min SCORE SCORE) (* NS SCORE)) (max SCORE NS))) (* (+ SCORE (max TSV NS)) (/ (* NS SCORE) (max (+ SCORE TR) TSV)))) (max TC RemT)) (/ (* (min (max (- (- SCORE TSV) TO) (max TC RemT)) (* (+ (* TC TSV) (min SCORE SCORE)) (/ (max TSV NS) (* TC TSV)))) (* (+ (min NS SCORE) (min SCORE SCORE)) (/ (* NS SCORE) (max (+ SCORE TR) TSV)))) (* TC TSV))))
+ops -1 -1 4 -1 -1 -1 5 -1 -1 1 -1 1 0 4 0 -1 -1 1 -1 -1 4 -1 -1 2 0 -1 -1 5 2 4 -1 -1 -1 5 0 -1 -1 2 -1 -1 0 -1 5 3 2 2 -1 -1 5 5 -1 -1 1 -1 1 -1 -1 5 5 -1 -1 2 -1 -1 4 0 -1 -1 5 -1 -1 2 3 2 4 -1 -1 4 -1 -1 4 0 -1 -1 2 -1 -1 0 -1 5 3 2 2 -1 -1 2 3 2 2
+args 10 0 10 0 0 1 0 0 0 0 10 0 4 5 0 0 6 0 7 8 2 0 9 10 6 11 3 12 2 13 0 0 6 0 15 16 0 0 0 0 18 19 10 0 0 0 21 22 20 23 0 0 10 0 25 26 24 27 17 28 0 0 6 0 10 0 31 32 30 33 10 0 0 0 35 36 0 0 5 0 38 39 6 0 40 41 37 42 34 43 29 44 3 0 9 0 46 47 45 48 0 0 6 0 50 51 2 0 52 53 3 0 9 0 55 56 54 57 3 0 6 0 59 60 0 0 0 0 62 63 61 64 6 0 10 0 66 67 3 0 6 0 69 70 68 71 65 72 58 73 10 0 0 0 75 76 0 0 0 0 78 79 77 80 10 0 0 0 82 83 0 0 5 0 85 86 6 0 87 88 84 89 81 90 74 91 3 0 6 0 93 94 92 95 49 96 14 97
+tree (/ (- (- NS RemT) (max (max (min SCORE (min TA RemT)) (max TC (* TC (max DUR TC)))) (* (max (* TSV TSV) TO) (/ (max DUR TSV) (min SCORE TC))))) (/ (min SCORE (max NS TC)) (* TSV TSV)))
+ops -1 -1 1 -1 -1 -1 4 4 -1 -1 -1 -1 5 2 5 5 -1 -1 2 -1 5 -1 -1 5 -1 -1 4 3 2 5 1 -1 -1 -1 5 4 -1 -1 2 3 3
+args 10 0 9 0 0 1 0 0 4 0 9 0 4 5 3 6 3 0 3 0 1 0 3 0 10 11 9 12 8 13 7 14 6 0 6 0 16 17 2 0 18 19 1 0 6 0 21 22 0 0 3 0 24 25 23 26 20 27 15 28 2 29 0 0 10 0 3 0 32 33 31 34 6 0 6 0 36 37 35 38 30 39
+tree (min (/ (/ RemT TSV) (- (max (* (- TSV TC) TFV) (min (+ TFV TFV) (* TSV NS))) (/ TA (/ RemT SCORE)))) (min (/ (min (- (max TO (+ SL TO)) (min TO NS)) (* TSV NS)) (- (max (- TSV TC) TA) (/ (+ TFV TFV) (min (min DUR TA) NS)))) (min (- (min DUR TA) (+ TFV TFV)) TA)))
+ops -1 -1 3 -1 -1 1 -1 2 -1 -1 0 -1 -1 2 4 5 -1 -1 -1 3 3 1 3 -1 -1 -1 0 5 -1 -1 4 1 -1 -1 2 4 -1 -1 1 -1 5 -1 -1 0 -1 -1 4 -1 4 3 1 3 -1 -1 4 -1 -1 0 1 -1 4 4 4
+args 9 0 6 0 0 1 6 0 3 0 3 4 7 0 5 6 7 0 7 0 8 9 6 0 10 0 11 12 10 13 7 14 4 0 9 0 0 0 17 18 16 19 15 20 2 21 2 0 8 0 2 0 24 25 23 26 2 0 10 0 28 29 27 30 6 0 10 0 32 33 31 34 6 0 3 0 36 37 4 0 38 39 7 0 7 0 41 42 1 0 4 0 44 45 10 0 46 47 43 48 40 49 35 50 1 0 4 0 52 53 7 0 7 0 55 56 54 57 4 0 58 59 51 60 22 61
+tree (* (min (- (min (/ (/ SCORE TFV) (min (/ (max SL TA) (/ SCORE TFV)) (- (- DUR SCORE) TSV))) (- (max TC TFV) TSV)) (* (+ (+ TA SCORE) SL) (/ (max NS TFV) (/ SCORE TFV)))) (- (min (/ (max TFV TFV) (/ SCORE TFV)) (- (max TC TFV) TSV)) (* (+ (+ TA SCORE) SL) (/ (max NS TFV) (/ SCORE TFV))))) (max SL (- (max (+ (/ (- TC TO) (/ SCORE TFV)) (/ SL (max DUR SCORE))) (* (+ (+ TA SCORE) SL) (/ (max NS TFV) (max SL TA)))) (min (/ SCORE (- SCORE TC)) (max TFV TA)))))
+ops -1 -1 3 -1 -1 5 -1 -1 3 3 -1 -1 1 -1 1 4 3 -1 -1 5 -1 1 4 -1 -1 0 -1 0 -1 -1 5 -1 -1 3 3 2 1 -1 -1 5 -1 -1 3 3 -1 -1 5 -1 1 4 -1 -1 0 -1 0 -1 -1 5 -1 -1 3 3 2 1 4 -1 -1 -1 1 -1 -1 3 3 -1 -1 -1 5 3 0 -1 -1 0 -1 0 -1 -1 5 -1 -1 5 3 2 5 -1 -1 -1 1 3 -1 -1 5 4 1 5 2
+args 0 0 7 0 0 1 8 0 4 0 3 4 0 0 7 0 6 7 5 8 1 0 0 0 10 11 6 0 12 13 9 14 2 15 3 0 7 0 17 18 6 0 19 20 16 21 4 0 0 0 23 24 8 0 25 26 10 0 7 0 28 29 0 0 7 0 31 32 30 33 27 34 22 35 7 0 7 0 37 38 0 0 7 0 40 41 39 42 3 0 7 0 44 45 6 0 46 47 43 48 4 0 0 0 50 51 8 0 52 53 10 0 7 0 55 56 0 0 7 0 58 59 57 60 54 61 49 62 36 63 8 0 3 0 2 0 66 67 0 0 7 0 69 70 68 71 8 0 1 0 0 0 74 75 73 76 72 77 4 0 0 0 79 80 8 0 81 82 10 0 7 0 84 85 8 0 4 0 87 88 86 89 83 90 78 91 0 0 0 0 3 0 94 95 93 96 7 0 4 0 98 99 97 100 92 101 65 102 64 103
+tree (+ SCORE DUR)
+ops -1 -1 0
+args 0 0 1 0 0 1
+tree (+ TO TC)
+ops -1 -1 0
+args 2 0 3 0 0 1
+tree (+ TA TR)
+ops -1 -1 0
+args 4 0 5 0 0 1
+tree (+ TSV TFV)
+ops -1 -1 0
+args 6 0 7 0 0 1
+tree (+ SL RemT)
+ops -1 -1 0
+args 8 0 9 0 0 1
+tree (+ NS REGRET)
+ops -1 -1 0
+args 10 0 11 0 0 1
+tree (+ NSROB MAXN)
+ops -1 -1 0
+args 12 0 13 0 0 1
+tree (+ REACH2 NSTW)
+ops -1 -1 0
+args 14 0 15 0 0 1
+tree (+ RAND FRAGCNT)
+ops -1 -1 0
+args 16 0 17 0 0 1
+tree (+ FRAGSCORE DOWNSLACK)
+ops -1 -1 0
+args 18 0 19 0 0 1
+tree (+ PBUST REACH1)
+ops -1 -1 0
+args 20 0 21 0 0 1
+tree (+ REACH3 REACH5)
+ops -1 -1 0
+args 22 0 23 0 0 1
+tree (+ SAT VFRAC)
+ops -1 -1 0
+args 24 0 25 0 0 1
+tree (+ NFEAS VEH)
+ops -1 -1 0
+args 26 0 27 0 0 1
+tree (+ HARVEST BOLSAO)
+ops -1 -1 0
+args 28 0 29 0 0 1
+tree (+ ATRISK ZTC)
+ops -1 -1 0
+args 30 0 31 0 0 1
+tree (+ ZREACH ZWLOSS)
+ops -1 -1 0
+args 32 0 33 0 0 1
+tree (+ ZATRISK ZD2D)
+ops -1 -1 0
+args 34 0 35 0 0 1
+tree (+ C1 C2)
+ops -1 -1 0
+args 36 0 37 0 0 1
+tree (+ C3 C4)
+ops -1 -1 0
+args 38 0 39 0 0 1
+tree (+ C5 REACH2ROB)
+ops -1 -1 0
+args 40 0 41 0 0 1
+tree (+ RELCOST NETREACH)
+ops -1 -1 0
+args 42 0 43 0 0 1
+tree (+ SKIPLOSS FRAGILITY)
+ops -1 -1 0
+args 44 0 45 0 0 1
+tree (+ SROB REACH3ROB)
+ops -1 -1 0
+args 46 0 47 0 0 1
+tree (+ REACH5ROB NSA2)
+ops -1 -1 0
+args 48 0 49 0 0 1
+tree (+ NSA05 FEASCORE)
+ops -1 -1 0
+args 50 0 51 0 0 1
+tree (+ NFEASROB NSROB05)
+ops -1 -1 0
+args 52 0 53 0 0 1
+tree (+ NSROB2 NNFWD)
+ops -1 -1 0
+args 54 0 55 0 0 1
+tree (+ NNK3 NNCHAIN3)
+ops -1 -1 0
+args 56 0 57 0 0 1
+tree (+ SAVINGS DETOUR)
+ops -1 -1 0
+args 58 0 59 0 0 1
+tree (+ SCORERANK D2D)
+ops -1 -1 0
+args 60 0 5 0 0 1
+tree (+ SLACK WLOSS)
+ops -1 -1 0
+args 8 0 11 0 0 1
+tree (rmod (min SCORE NS) (max TA 0.375))
+ops -1 -1 4 -1 -2 5 6
+args 0 0 10 0 0 1 4 0 375 0 3 4 2 5
+tree (* 0.123 (/ REACH5 DUR))
+ops -2 -1 -1 3 2
+args 123 0 23 0 1 0 1 2 0 3

@@ -1,0 +1,45 @@
+# ga r102 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 397.4s | 30.57s/eval
+  batch 6 genomes @16 seeds | 522.0s | 87.00s/eval
+gen 0 | best 619.19 [REACH1] | mean 613.48 | unique 13 | evals 19
+  batch 7 genomes @16 seeds | 345.0s | 49.29s/eval
+gen 1 | best 621.41 [REACH5,NFEAS] | mean 617.03 | unique 10 | evals 26
+  batch 5 genomes @16 seeds | 421.9s | 84.38s/eval
+gen 2 | best 622.50 [NSTW,REACH3,HARVEST] | mean 618.63 | unique 9 | evals 31
+  batch 5 genomes @16 seeds | 373.2s | 74.63s/eval
+gen 3 | best 622.50 [NSTW,REACH3,HARVEST] | mean 619.58 | unique 9 | evals 36
+  batch 6 genomes @16 seeds | 347.6s | 57.93s/eval
+gen 4 | best 623.11 [NSROB,REACH1,REACH5] | mean 620.36 | unique 9 | evals 42
+  batch 5 genomes @16 seeds | 414.1s | 82.83s/eval
+gen 5 | best 623.11 [NSROB,REACH1,REACH5] | mean 620.86 | unique 9 | evals 47
+  batch 7 genomes @16 seeds | 484.2s | 69.17s/eval
+gen 6 | best 623.11 [NSROB,REACH1,REACH5] | mean 620.86 | unique 9 | evals 54
+  batch 8 genomes @16 seeds | 944.6s | 118.07s/eval
+gen 7 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.13 | unique 8 | evals 62
+  batch 6 genomes @16 seeds | 866.2s | 144.37s/eval
+gen 8 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.23 | unique 8 | evals 68
+  batch 7 genomes @16 seeds | 493.0s | 70.42s/eval
+gen 9 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.26 | unique 8 | evals 75
+  batch 4 genomes @16 seeds | 241.5s | 60.36s/eval
+gen 10 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.29 | unique 9 | evals 79
+  batch 7 genomes @16 seeds | 824.2s | 117.74s/eval
+gen 11 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.44 | unique 8 | evals 86
+  batch 6 genomes @16 seeds | 861.2s | 143.53s/eval
+gen 12 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.44 | unique 8 | evals 92
+  batch 5 genomes @16 seeds | 689.0s | 137.80s/eval
+gen 13 | best 623.11 [NSROB,REACH1,REACH5] | mean 621.50 | unique 8 | evals 97
+  batch 5 genomes @16 seeds | 392.6s | 78.52s/eval
+stop: stagnant 10 gens
+gen end | best 623.11 [NSROB,REACH1,REACH5] | mean 621.50 | evals 102
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 535.6s | 89.26s/eval
+  619.95 (proxy 623.11) [NSROB,REACH1,REACH5]
+  619.05 (proxy 622.50) [NSTW,REACH3,HARVEST]
+  617.56 (proxy 621.41) [REACH5,NFEAS]
+  619.75 (proxy 621.25) [REACH1,REACH5]
+  620.49 (proxy 621.10) [MAXN,NSTW,REACH3]
+  616.16 (proxy 620.44) [NSTW,REACH3]
+
+CHAMPION train-30 620.49 | evals 108 | terms: MAXN,NSTW,REACH3
+PERF evals 108 | wall 9161s | 84.8s/eval | batch-gpu 9153s

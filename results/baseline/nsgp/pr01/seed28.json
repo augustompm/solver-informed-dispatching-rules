@@ -1,0 +1,26 @@
+{
+  "config": "nsgp",
+  "instance": "pr01",
+  "seed": 28,
+  "test_mean": 588.2,
+  "test_std": 8.046956382013516,
+  "best_train_fitness": 594.0,
+  "best_tree": "(min (* (+ (+ (min (/ (/ (* TC TSV) (min TA SCORE)) (+ (/ TO TR) (* TO SCORE))) (max (- (- NS TR) (+ SCORE TFV)) (* TO (* DUR NS)))) (max (* TA (+ (* TFV TA) (- DUR SCORE))) (min (max (- SCORE TSV) (/ TO NS)) (- (max TC TA) (* TO SCORE))))) (max (min (/ (max (- NS SL) (/ TR DUR)) (min (min SL TC) (- SL TR))) (max (/ (min SCORE SL) (/ TO SCORE)) (+ (/ TO NS) (- RemT TSV)))) (* SCORE (max RemT TR)))) (- (* (* (- (- (min TA DUR) (max TA TFV)) (min SCORE TSV)) (- (/ (- TR TC) (* TR TC)) (- (max NS TO) (min TFV SL)))) (/ (- (/ (+ DUR NS) (/ SL TR)) (/ (- SL RemT) (* TR TA))) (/ (- (max SL TO) (+ TO RemT)) (/ (min TO NS) (* TO DUR))))) (min (* (max (/ (/ TA NS) (max NS TSV)) (- (- TR RemT) (+ NS TR))) (- (min (min SCORE SCORE) (- TSV TA)) (- (min TC TSV) (- NS TSV)))) (/ (/ (max SCORE (+ TC RemT)) (+ (+ TA TA) (min TFV SCORE))) (+ (+ (/ TO TR) (* TO SCORE)) (- (+ TFV TA) (+ DUR NS))))))) (- (min (- (/ (- (* TSV TC) (* TFV TA)) (/ (max (max SCORE TO) (+ TC TC)) (* (max DUR TC) NS))) (max (max (max (* SL RemT) (/ TC DUR)) (+ (/ SL NS) (/ TA TC))) (max (+ (+ TC TO) (+ TFV TO)) (min (* TA TO) TFV)))) (/ (+ (max (+ (/ TR NS) (+ TR TFV)) (* (/ TFV TSV) (- RemT TO))) (* (+ (min NS SCORE) (max DUR TFV)) (/ (/ DUR NS) (- TA SCORE)))) (max (+ (- (/ NS TO) (+ TO SCORE)) (max (/ TO TSV) (* SCORE RemT))) (max (* SCORE (max RemT TR)) (* (/ TR TR) (- NS TFV)))))) (+ (/ (* (min (/ (* TC TSV) (min TA SCORE)) (/ (max NS TO) (* TSV TC))) (+ (- (max TA TSV) (min RemT TFV)) (max (+ SL TR) (min TFV TC)))) (min (max (+ (+ TC TFV) (- SL RemT)) (+ (* SCORE TC) (/ TC SL))) (/ (* (min SCORE TSV) (* TO TA)) (max (+ DUR TR) (max TR TR))))) (+ (/ (- (min (* TSV TA) (+ RemT NS)) (- (- NS TR) (+ SCORE TFV))) (min (/ (min SCORE TA) (max RemT TC)) (+ NS (+ NS TR)))) (max (- (max (+ TA TFV) (+ NS SL)) (* (- TSV RemT) (+ TFV TSV))) (* (* TO TSV) (min SL SCORE)))))))",
+  "generations_run": 51,
+  "time_seconds": 222.29340195655823,
+  "params": {
+    "population_size": 1024,
+    "generations": 51,
+    "max_depth": 8,
+    "tournament_size": 7,
+    "elitism": 10,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "reproduction_rate": 0.05,
+    "num_vehicles": 3,
+    "sigma": 0.2,
+    "train_samples": 1,
+    "test_samples": 500,
+    "use_ns": true
+  }
+}

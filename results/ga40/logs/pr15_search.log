@@ -1,0 +1,47 @@
+# ga pr15 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 7333.6s | 564.12s/eval
+  batch 6 genomes @16 seeds | 5715.1s | 952.52s/eval
+gen 0 | best 1479.22 [REACH5] | mean 1467.87 | unique 13 | evals 19
+  batch 5 genomes @16 seeds | 4271.8s | 854.36s/eval
+gen 1 | best 1479.22 [REACH5] | mean 1471.85 | unique 8 | evals 24
+  batch 8 genomes @16 seeds | 10269.3s | 1283.66s/eval
+gen 2 | best 1479.22 [REACH5] | mean 1471.93 | unique 8 | evals 32
+  batch 5 genomes @16 seeds | 6457.6s | 1291.53s/eval
+gen 3 | best 1479.22 [REACH5] | mean 1472.00 | unique 7 | evals 37
+  batch 2 genomes @16 seeds | 2627.8s | 1313.92s/eval
+gen 4 | best 1479.22 [REACH5] | mean 1473.66 | unique 4 | evals 39
+  batch 2 genomes @16 seeds | 2963.1s | 1481.54s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 3906.0s | 1301.99s/eval
+gen 5 | best 1479.22 [REACH5] | mean 1474.51 | unique 5 | evals 44
+  batch 2 genomes @16 seeds | 7115.6s | 3557.79s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 3360.0s | 1119.99s/eval
+gen 6 | best 1479.22 [REACH5] | mean 1473.80 | unique 5 | evals 49
+  batch 2 genomes @16 seeds | 2025.7s | 1012.86s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 10421.3s | 2084.25s/eval
+gen 7 | best 1479.22 [REACH5] | mean 1475.05 | unique 4 | evals 56
+  batch 2 genomes @16 seeds | 8170.8s | 4085.40s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 10892.8s | 2723.20s/eval
+gen 8 | best 1479.22 [REACH5] | mean 1475.88 | unique 4 | evals 62
+  batch 2 genomes @16 seeds | 10605.0s | 5302.50s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 10595.6s | 2648.91s/eval
+gen 9 | best 1479.22 [REACH5] | mean 1476.57 | unique 4 | evals 68
+  batch 2 genomes @16 seeds | 9436.6s | 4718.32s/eval
+  reinject 2
+  batch 2 genomes @16 seeds | 8849.7s | 4424.85s/eval
+stop: stagnant 10 gens
+gen end | best 1479.22 [REACH5] | mean 1477.19 | evals 72
+
+confirming top-4 at 30 seeds:
+  batch 4 genomes @30 seeds | 20277.7s | 5069.42s/eval
+  1479.07 (proxy 1479.22) [REACH5]
+  1474.94 (proxy 1473.80) [(base)]
+  1467.54 (proxy 1473.03) [REACH5,ATRISK]
+  1464.57 (proxy 1464.47) [REGRET,REACH2,ATRISK,REACH2ROB]
+
+CHAMPION train-30 1479.07 | evals 76 | terms: REACH5
+PERF evals 76 | wall 145300s | 1911.8s/eval | batch-gpu 145295s

@@ -1,0 +1,36 @@
+# cache logs/rc204.evcache | 117 entries loaded
+# ga rc204 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+gen 0 | best 1723.93 [ATRISK] | mean 1723.86 | unique 13 | evals 0
+gen 1 | best 1723.93 [ATRISK] | mean 1723.90 | unique 8 | evals 0
+gen 2 | best 1723.96 [NSROB,VFRAC,ATRISK] | mean 1723.92 | unique 8 | evals 0
+gen 3 | best 1723.99 [REACH2,VFRAC] | mean 1723.92 | unique 8 | evals 0
+gen 4 | best 1723.99 [REACH2,VFRAC] | mean 1723.92 | unique 7 | evals 0
+gen 5 | best 1723.99 [REACH2,VFRAC] | mean 1723.92 | unique 7 | evals 0
+gen 6 | best 1723.99 [REACH2,VFRAC] | mean 1723.94 | unique 7 | evals 0
+gen 7 | best 1723.99 [REACH2,VFRAC] | mean 1723.94 | unique 7 | evals 0
+gen 8 | best 1723.99 [REACH2,VFRAC] | mean 1723.95 | unique 6 | evals 0
+  reinject 2
+gen 9 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.93 | unique 9 | evals 0
+gen 10 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.96 | unique 9 | evals 0
+gen 11 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.96 | unique 10 | evals 0
+gen 12 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.97 | unique 9 | evals 0
+gen 13 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.97 | unique 8 | evals 0
+gen 14 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.97 | unique 8 | evals 0
+gen 15 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 0
+gen 16 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 0
+gen 17 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 0
+gen 18 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 0
+stop: stagnant 10 gens
+gen end | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | evals 0
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 6198.7s | 1033.12s/eval
+  1723.90 (proxy 1723.99) [NSROB,VFRAC,HARVEST]
+  1723.90 (proxy 1723.99) [VFRAC,HARVEST,ATRISK]
+  1723.80 (proxy 1723.99) [NSROB,MAXN,VFRAC,HARVEST,ATRISK]
+  1723.85 (proxy 1723.99) [REACH2,VFRAC]
+  1723.86 (proxy 1723.97) [REGRET,NSROB,SAT,VFRAC,ATRISK]
+  1723.89 (proxy 1723.96) [NSROB,VFRAC,ATRISK]
+
+CHAMPION train-30 1723.90 | evals 6 | terms: VFRAC,HARVEST,ATRISK
+PERF evals 6 | wall 6201s | 1033.4s/eval | batch-gpu 6199s

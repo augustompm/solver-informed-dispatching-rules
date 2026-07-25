@@ -1,0 +1,19 @@
+[g3] pr03 start 2026-07-15T11:02:09Z
+[g3] pr03 CHAMPION train-30 900.52 | evals 74 | terms: MAXN,REACH1,REACH3,NFEAS
+[g3] pr03 trace done 2026-07-15T15:14:42Z
+[g3] pr03 end 2026-07-15T15:14:42Z
+[g3] rc103 start 2026-07-15T15:14:42Z
+[g3] rc103 start 2026-07-15T19:35:40Z
+[g3] rc103 CHAMPION train-30 675.03 | evals 261 | terms: MAXN,REACH2,VFRAC,REACH2ROB
+[g3] rc103 trace done 2026-07-16T06:14:50Z
+[g3] rc103 end 2026-07-16T06:14:50Z
+[g3] rc105 start 2026-07-16T06:14:50Z
+[g3] rc105 CHAMPION train-30 618.88 | evals 67 | terms: REACH3
+[g3] rc105 trace done 2026-07-16T07:18:06Z
+[g3] rc105 end 2026-07-16T07:18:06Z
+[g3] r104 start 2026-07-16T07:18:06Z
+[g3] r104 CHAMPION train-30 729.42 | evals 160 | terms: PBUST,REACH3
+[g3] r104 trace done 2026-07-16T15:31:59Z
+[g3] r104 end 2026-07-16T15:31:59Z
+[g3] rc204 start 2026-07-16T15:31:59Z
+[g3] rc204 start 2026-07-16T15:50:07Z

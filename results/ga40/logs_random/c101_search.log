@@ -1,0 +1,20 @@
+# ga c101 | universe 18 | seeds random (0) | tree-13 uniform-x pm 0.50 | gens 50 stag 5
+  batch 13 genomes @16 seeds | 1819.5s | 139.96s/eval
+gen 0 | best 773.34 [NSROB,MAXN,FRAGCNT,REACH3,HARVEST,REACH2ROB] | mean 770.50 | unique 13 | evals 13
+  batch 12 genomes @16 seeds | 1584.6s | 132.05s/eval
+gen 1 | best 775.15 [MAXN,REACH2,REACH3,NFEAS,HARVEST,REACH2ROB] | mean 772.46 | unique 13 | evals 25
+  batch 9 genomes @16 seeds | 1560.4s | 173.38s/eval
+gen 2 | best 775.25 [REACH2,REACH3,NFEAS,HARVEST] | mean 773.30 | unique 13 | evals 34
+  batch 10 genomes @16 seeds | 1626.6s | 162.66s/eval
+gen 3 | best 775.25 [REACH2,REACH3,NFEAS,HARVEST] | mean 773.51 | unique 12 | evals 44
+  batch 10 genomes @16 seeds | 1759.1s | 175.91s/eval
+gen 4 | best 775.25 [REACH2,REACH3,NFEAS,HARVEST] | mean 773.64 | unique 11 | evals 54
+  batch 12 genomes @16 seeds | 2002.8s | 166.90s/eval
+gen 5 | best 775.25 [REACH2,REACH3,NFEAS,HARVEST] | mean 773.92 | unique 11 | evals 66
+  batch 8 genomes @16 seeds | 1132.9s | 141.61s/eval
+gen 6 | best 775.25 [REACH2,REACH3,NFEAS,HARVEST] | mean 774.00 | unique 10 | evals 74
+  batch 8 genomes @16 seeds | 1393.5s | 174.19s/eval
+stop: stagnant 5 gens
+gen end | best 775.25 [REACH2,REACH3,NFEAS,HARVEST] | mean 774.00 | evals 82
+
+confirming top-4 at 30 seeds:

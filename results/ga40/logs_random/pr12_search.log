@@ -1,0 +1,9 @@
+# ga pr12 | universe 18 | seeds random (0) | tree-13 uniform-x pm 0.50 | gens 50 stag 5
+  batch 13 genomes @16 seeds | 5599.7s | 430.74s/eval
+gen 0 | best 915.67 [NSTW,FRAGCNT,REACH1] | mean 907.36 | unique 13 | evals 13
+  batch 11 genomes @16 seeds | 4652.1s | 422.92s/eval
+gen 1 | best 918.20 [REACH2,FRAGCNT,REACH1] | mean 910.68 | unique 13 | evals 24
+  batch 12 genomes @16 seeds | 5963.2s | 496.94s/eval
+gen 2 | best 918.20 [REACH2,FRAGCNT,REACH1] | mean 911.71 | unique 13 | evals 36
+  batch 11 genomes @16 seeds | 7284.3s | 662.21s/eval
+gen 3 | best 918.20 [REACH2,FRAGCNT,REACH1] | mean 912.97 | unique 13 | evals 47

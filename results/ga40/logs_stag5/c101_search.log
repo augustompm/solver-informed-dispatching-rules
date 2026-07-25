@@ -1,0 +1,14 @@
+# ga c101 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 5
+  batch 13 genomes @16 seeds | 567.8s | 43.68s/eval
+  batch 6 genomes @16 seeds | 467.7s | 77.96s/eval
+gen 0 | best 773.25 [REACH2] | mean 768.31 | unique 13 | evals 19
+  batch 4 genomes @16 seeds | 758.7s | 189.66s/eval
+gen 1 | best 773.39 [MAXN,REACH2,REACH1,REACH3,ATRISK] | mean 768.79 | unique 13 | evals 23
+  batch 8 genomes @16 seeds | 627.4s | 78.42s/eval
+gen 2 | best 774.90 [NSROB,MAXN,REACH3,REACH5,VFRAC] | mean 771.05 | unique 11 | evals 31
+  batch 8 genomes @16 seeds | 1322.9s | 165.36s/eval
+gen 3 | best 774.90 [NSROB,MAXN,REACH3,REACH5,VFRAC] | mean 772.37 | unique 11 | evals 39
+  batch 8 genomes @16 seeds | 1303.2s | 162.90s/eval
+gen 4 | best 774.90 [NSROB,MAXN,REACH3,REACH5,VFRAC] | mean 772.85 | unique 11 | evals 47
+  batch 9 genomes @16 seeds | 1230.7s | 136.74s/eval
+gen 5 | best 774.90 [NSROB,MAXN,REACH3,REACH5,VFRAC] | mean 773.15 | unique 10 | evals 56

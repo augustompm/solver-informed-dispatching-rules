@@ -1,0 +1,41 @@
+# ga pr03 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1086.2s | 83.56s/eval
+  batch 6 genomes @16 seeds | 1725.8s | 287.63s/eval
+gen 0 | best 902.67 [NFEAS] | mean 896.97 | unique 13 | evals 19
+  batch 5 genomes @16 seeds | 717.6s | 143.51s/eval
+gen 1 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 898.97 | unique 12 | evals 24
+  batch 6 genomes @16 seeds | 911.7s | 151.95s/eval
+gen 2 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 900.04 | unique 10 | evals 30
+  batch 3 genomes @16 seeds | 461.9s | 153.96s/eval
+gen 3 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 900.19 | unique 10 | evals 33
+  batch 7 genomes @16 seeds | 1485.9s | 212.27s/eval
+gen 4 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 900.72 | unique 9 | evals 40
+  batch 3 genomes @16 seeds | 573.1s | 191.02s/eval
+gen 5 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 901.29 | unique 9 | evals 43
+  batch 6 genomes @16 seeds | 853.8s | 142.30s/eval
+gen 6 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 901.29 | unique 9 | evals 49
+  batch 4 genomes @16 seeds | 1235.4s | 308.85s/eval
+gen 7 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 901.29 | unique 9 | evals 53
+  batch 3 genomes @16 seeds | 802.2s | 267.41s/eval
+gen 8 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 901.99 | unique 7 | evals 56
+  batch 4 genomes @16 seeds | 782.1s | 195.53s/eval
+gen 9 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 902.05 | unique 7 | evals 60
+  batch 3 genomes @16 seeds | 571.2s | 190.39s/eval
+gen 10 | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 902.49 | unique 6 | evals 63
+  batch 2 genomes @16 seeds | 528.3s | 264.13s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 1270.1s | 423.36s/eval
+stop: stagnant 10 gens
+gen end | best 908.04 [MAXN,REACH1,REACH3,NFEAS] | mean 901.97 | evals 68
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 1710.1s | 285.01s/eval
+  900.52 (proxy 908.04) [MAXN,REACH1,REACH3,NFEAS]
+  900.15 (proxy 902.67) [NFEAS]
+  897.91 (proxy 899.72) [MAXN]
+  900.40 (proxy 899.60) [SAT,NFEAS]
+  893.58 (proxy 897.64) [REGRET,NSROB,NSTW,FRAGSCORE,REACH3,VFRAC,REACH2ROB]
+  893.94 (proxy 893.91) [MAXN,PBUST,REACH1,VFRAC,NFEAS]
+
+CHAMPION train-30 900.52 | evals 74 | terms: MAXN,REACH1,REACH3,NFEAS
+PERF evals 74 | wall 14720s | 198.9s/eval | batch-gpu 14715s

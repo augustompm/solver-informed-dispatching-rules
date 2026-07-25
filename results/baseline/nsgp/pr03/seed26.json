@@ -1,0 +1,26 @@
+{
+  "config": "nsgp",
+  "instance": "pr03",
+  "seed": 26,
+  "test_mean": 869.678,
+  "test_std": 17.798648819491866,
+  "best_train_fitness": 883.0,
+  "best_tree": "(min (/ (+ (+ (min (* (min SCORE TR) (+ TSV RemT)) (- (max TFV SCORE) (/ SCORE (- SCORE TFV)))) TA) (+ (max (+ TFV (max NS (- SCORE TFV))) (+ SCORE TSV)) TA)) (min SCORE (- SCORE TA))) (min (- SCORE TFV) (- SCORE TFV)))",
+  "generations_run": 51,
+  "time_seconds": 991.4537103176117,
+  "params": {
+    "population_size": 1024,
+    "generations": 51,
+    "max_depth": 8,
+    "tournament_size": 7,
+    "elitism": 10,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "reproduction_rate": 0.05,
+    "num_vehicles": 3,
+    "sigma": 0.2,
+    "train_samples": 1,
+    "test_samples": 500,
+    "use_ns": true
+  }
+}

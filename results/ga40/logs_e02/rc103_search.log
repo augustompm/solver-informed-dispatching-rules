@@ -1,0 +1,83 @@
+# ga rc103 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 438.2s | 33.71s/eval
+  batch 6 genomes @16 seeds | 630.0s | 105.00s/eval
+gen 0 | best 671.83 [NSROB] | mean 667.11 | unique 13 | evals 19
+  batch 6 genomes @16 seeds | 378.2s | 63.03s/eval
+gen 1 | best 672.25 [NSROB,MAXN,REACH1,REACH3] | mean 668.07 | unique 11 | evals 25
+  batch 7 genomes @16 seeds | 980.9s | 140.12s/eval
+gen 2 | best 673.10 [NSROB,ATRISK,REACH2ROB] | mean 669.37 | unique 11 | evals 32
+  batch 6 genomes @16 seeds | 474.1s | 79.02s/eval
+gen 3 | best 674.54 [NSROB,REACH3] | mean 670.24 | unique 11 | evals 38
+  batch 8 genomes @16 seeds | 1516.8s | 189.60s/eval
+gen 4 | best 674.54 [NSROB,REACH3] | mean 670.79 | unique 11 | evals 46
+  batch 5 genomes @16 seeds | 996.0s | 199.21s/eval
+gen 5 | best 674.54 [NSROB,REACH3] | mean 670.87 | unique 10 | evals 51
+  batch 8 genomes @16 seeds | 1116.3s | 139.54s/eval
+gen 6 | best 674.54 [NSROB,REACH3] | mean 671.51 | unique 11 | evals 59
+  batch 4 genomes @16 seeds | 822.8s | 205.70s/eval
+gen 7 | best 674.54 [NSROB,REACH3] | mean 671.83 | unique 10 | evals 63
+  batch 4 genomes @16 seeds | 840.8s | 210.20s/eval
+gen 8 | best 674.54 [NSROB,REACH3] | mean 672.37 | unique 8 | evals 67
+  batch 7 genomes @16 seeds | 1163.6s | 166.23s/eval
+gen 9 | best 674.54 [NSROB,REACH3] | mean 672.63 | unique 7 | evals 74
+  batch 3 genomes @16 seeds | 230.5s | 76.83s/eval
+gen 10 | best 674.54 [NSROB,REACH3] | mean 672.90 | unique 6 | evals 77
+  batch 2 genomes @16 seeds | 197.4s | 98.68s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 1109.7s | 221.95s/eval
+gen 11 | best 675.87 [NSROB,FRAGCNT,SAT,REACH2ROB] | mean 673.24 | unique 8 | evals 84
+  batch 5 genomes @16 seeds | 611.4s | 122.28s/eval
+gen 12 | best 675.87 [NSROB,FRAGCNT,SAT,REACH2ROB] | mean 673.25 | unique 9 | evals 89
+  batch 7 genomes @16 seeds | 1158.0s | 165.42s/eval
+gen 13 | best 675.87 [NSROB,FRAGCNT,SAT,REACH2ROB] | mean 673.57 | unique 8 | evals 96
+  batch 8 genomes @16 seeds | 1267.2s | 158.39s/eval
+gen 14 | best 675.87 [NSROB,FRAGCNT,SAT,REACH2ROB] | mean 673.68 | unique 9 | evals 104
+  batch 10 genomes @16 seeds | 1345.2s | 134.52s/eval
+gen 15 | best 676.43 [NSROB,FRAGCNT,FRAGSCORE,SAT,REACH2ROB] | mean 673.87 | unique 10 | evals 114
+  batch 10 genomes @16 seeds | 1629.8s | 162.98s/eval
+gen 16 | best 676.43 [NSROB,FRAGCNT,FRAGSCORE,SAT,REACH2ROB] | mean 673.88 | unique 10 | evals 124
+  batch 9 genomes @16 seeds | 1253.1s | 139.23s/eval
+gen 17 | best 676.43 [NSROB,FRAGCNT,FRAGSCORE,SAT,REACH2ROB] | mean 673.88 | unique 10 | evals 133
+  batch 5 genomes @16 seeds | 1132.3s | 226.46s/eval
+gen 18 | best 676.43 [NSROB,FRAGCNT,FRAGSCORE,SAT,REACH2ROB] | mean 673.99 | unique 9 | evals 138
+  batch 9 genomes @16 seeds | 1320.6s | 146.74s/eval
+gen 19 | best 677.68 [MAXN,REACH2,VFRAC,REACH2ROB] | mean 674.69 | unique 9 | evals 147
+  batch 7 genomes @16 seeds | 1091.9s | 155.98s/eval
+gen 20 | best 677.88 [NSROB,FRAGCNT,REACH3,NFEAS,REACH2ROB] | mean 675.04 | unique 10 | evals 154
+  batch 11 genomes @16 seeds | 1677.9s | 152.53s/eval
+gen 21 | best 677.88 [NSROB,FRAGCNT,REACH3,NFEAS,REACH2ROB] | mean 675.15 | unique 12 | evals 165
+  batch 10 genomes @16 seeds | 1473.2s | 147.32s/eval
+gen 22 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.33 | unique 12 | evals 175
+  batch 8 genomes @16 seeds | 1279.8s | 159.97s/eval
+gen 23 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.66 | unique 11 | evals 183
+  batch 10 genomes @16 seeds | 1432.1s | 143.21s/eval
+gen 24 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.66 | unique 11 | evals 193
+  batch 9 genomes @16 seeds | 1300.2s | 144.47s/eval
+gen 25 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.66 | unique 11 | evals 202
+  batch 9 genomes @16 seeds | 1100.9s | 122.32s/eval
+gen 26 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.80 | unique 10 | evals 211
+  batch 9 genomes @16 seeds | 1426.9s | 158.55s/eval
+gen 27 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.98 | unique 10 | evals 220
+  batch 6 genomes @16 seeds | 1143.8s | 190.64s/eval
+gen 28 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.98 | unique 10 | evals 226
+  batch 8 genomes @16 seeds | 1283.6s | 160.44s/eval
+gen 29 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 675.98 | unique 10 | evals 234
+  batch 6 genomes @16 seeds | 579.5s | 96.58s/eval
+gen 30 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 676.01 | unique 9 | evals 240
+  batch 6 genomes @16 seeds | 1100.0s | 183.33s/eval
+gen 31 | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 676.11 | unique 9 | evals 246
+  batch 9 genomes @16 seeds | 1441.9s | 160.22s/eval
+stop: stagnant 10 gens
+gen end | best 678.22 [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB] | mean 676.11 | evals 255
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 1207.1s | 201.19s/eval
+  672.41 (proxy 678.22) [NSROB,FRAGCNT,SAT,NFEAS,REACH2ROB]
+  675.03 (proxy 677.68) [MAXN,REACH2,VFRAC,REACH2ROB]
+  673.50 (proxy 677.18) [NSROB,REACH2,REACH1,VFRAC,ATRISK,REACH2ROB]
+  670.82 (proxy 676.54) [NSROB,FRAGCNT,SAT,VFRAC,NFEAS,REACH2ROB]
+  672.73 (proxy 676.43) [NSROB,FRAGCNT,FRAGSCORE,SAT,REACH2ROB]
+  672.60 (proxy 674.70) [NSROB,FRAGCNT,REACH3,REACH2ROB]
+
+CHAMPION train-30 675.03 | evals 261 | terms: MAXN,REACH2,VFRAC,REACH2ROB
+PERF evals 261 | wall 38169s | 146.2s/eval | batch-gpu 38152s

@@ -1,0 +1,47 @@
+# ga rc204 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 2944.2s | 226.48s/eval
+  batch 6 genomes @16 seeds | 2982.9s | 497.16s/eval
+gen 0 | best 1723.93 [ATRISK] | mean 1723.86 | unique 13 | evals 19
+  batch 3 genomes @16 seeds | 1102.8s | 367.61s/eval
+gen 1 | best 1723.93 [ATRISK] | mean 1723.90 | unique 8 | evals 22
+  batch 3 genomes @16 seeds | 2699.4s | 899.80s/eval
+gen 2 | best 1723.96 [NSROB,VFRAC,ATRISK] | mean 1723.92 | unique 8 | evals 25
+  batch 5 genomes @16 seeds | 3866.5s | 773.30s/eval
+gen 3 | best 1723.99 [REACH2,VFRAC] | mean 1723.92 | unique 8 | evals 30
+  batch 6 genomes @16 seeds | 7773.9s | 1295.64s/eval
+gen 4 | best 1723.99 [REACH2,VFRAC] | mean 1723.92 | unique 7 | evals 36
+  batch 5 genomes @16 seeds | 4174.2s | 834.84s/eval
+gen 5 | best 1723.99 [REACH2,VFRAC] | mean 1723.92 | unique 7 | evals 41
+  batch 6 genomes @16 seeds | 4493.4s | 748.90s/eval
+gen 6 | best 1723.99 [REACH2,VFRAC] | mean 1723.94 | unique 7 | evals 47
+  batch 6 genomes @16 seeds | 4924.4s | 820.73s/eval
+gen 7 | best 1723.99 [REACH2,VFRAC] | mean 1723.94 | unique 7 | evals 53
+  batch 6 genomes @16 seeds | 4731.5s | 788.58s/eval
+gen 8 | best 1723.99 [REACH2,VFRAC] | mean 1723.95 | unique 6 | evals 59
+  batch 2 genomes @16 seeds | 1118.6s | 559.28s/eval
+  reinject 2
+  batch 8 genomes @16 seeds | 4955.6s | 619.44s/eval
+gen 9 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.93 | unique 9 | evals 69
+  batch 5 genomes @16 seeds | 4232.1s | 846.43s/eval
+gen 10 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.96 | unique 9 | evals 74
+  batch 5 genomes @16 seeds | 4544.2s | 908.83s/eval
+gen 11 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.96 | unique 10 | evals 79
+  batch 4 genomes @16 seeds | 2168.8s | 542.20s/eval
+gen 12 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.97 | unique 9 | evals 83
+  batch 7 genomes @16 seeds | 5806.5s | 829.50s/eval
+gen 13 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.97 | unique 8 | evals 90
+  batch 4 genomes @16 seeds | 2549.8s | 637.46s/eval
+gen 14 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.97 | unique 8 | evals 94
+  batch 5 genomes @16 seeds | 4293.3s | 858.66s/eval
+gen 15 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 99
+  batch 4 genomes @16 seeds | 2424.9s | 606.23s/eval
+gen 16 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 103
+  batch 5 genomes @16 seeds | 4585.0s | 917.00s/eval
+gen 17 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 108
+  batch 2 genomes @16 seeds | 2047.0s | 1023.50s/eval
+gen 18 | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | unique 7 | evals 110
+  batch 7 genomes @16 seeds | 6575.6s | 939.37s/eval
+stop: stagnant 10 gens
+gen end | best 1723.99 [NSROB,VFRAC,HARVEST] | mean 1723.98 | evals 117
+
+confirming top-6 at 30 seeds:

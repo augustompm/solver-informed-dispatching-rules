@@ -1,0 +1,43 @@
+# ga r202 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1659.4s | 127.64s/eval
+  batch 6 genomes @16 seeds | 1776.7s | 296.12s/eval
+gen 0 | best 1433.20 [REACH3] | mean 1429.57 | unique 13 | evals 19
+  batch 5 genomes @16 seeds | 781.5s | 156.29s/eval
+gen 1 | best 1433.20 [REACH3] | mean 1430.18 | unique 11 | evals 24
+  batch 6 genomes @16 seeds | 1311.2s | 218.54s/eval
+gen 2 | best 1433.20 [REACH3] | mean 1430.39 | unique 11 | evals 30
+  batch 4 genomes @16 seeds | 732.3s | 183.07s/eval
+gen 3 | best 1433.20 [REACH3] | mean 1430.77 | unique 9 | evals 34
+  batch 6 genomes @16 seeds | 1301.1s | 216.85s/eval
+gen 4 | best 1433.20 [REACH3] | mean 1431.83 | unique 7 | evals 40
+  batch 1 genomes @16 seeds | 211.5s | 211.55s/eval
+gen 5 | best 1433.20 [REACH3] | mean 1431.92 | unique 6 | evals 41
+  batch 2 genomes @16 seeds | 1254.2s | 627.12s/eval
+  reinject 2
+  batch 6 genomes @16 seeds | 1615.6s | 269.26s/eval
+gen 6 | best 1433.20 [REACH3] | mean 1431.82 | unique 7 | evals 49
+  batch 4 genomes @16 seeds | 943.1s | 235.78s/eval
+gen 7 | best 1433.20 [REACH3] | mean 1432.16 | unique 6 | evals 53
+  batch 2 genomes @16 seeds | 764.4s | 382.22s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 1804.8s | 360.96s/eval
+gen 8 | best 1433.20 [REACH3] | mean 1432.33 | unique 5 | evals 60
+  batch 2 genomes @16 seeds | 779.7s | 389.86s/eval
+  reinject 2
+  batch 8 genomes @16 seeds | 1863.2s | 232.89s/eval
+gen 9 | best 1433.20 [REACH3] | mean 1432.16 | unique 5 | evals 70
+  batch 2 genomes @16 seeds | 1068.0s | 534.02s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 1396.7s | 349.18s/eval
+stop: stagnant 10 gens
+gen end | best 1433.20 [REACH3] | mean 1432.06 | evals 76
+
+confirming top-4 at 30 seeds:
+  batch 4 genomes @30 seeds | 3421.0s | 855.26s/eval
+  1430.57 (proxy 1433.20) [REACH3]
+  1433.19 (proxy 1432.63) [REACH2]
+  1428.67 (proxy 1427.52) [REACH2,NSTW,FRAGCNT,REACH1,SAT,REACH2ROB]
+  1422.68 (proxy 1426.28) [REGRET,NSROB,FRAGSCORE,PBUST,REACH3,HARVEST,BOLSAO,ATRISK,REACH2ROB]
+
+CHAMPION train-30 1433.19 | evals 80 | terms: REACH2
+PERF evals 80 | wall 22691s | 283.6s/eval | batch-gpu 22684s

@@ -1,0 +1,4 @@
+# ga pr15 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 6625.9s | 509.69s/eval
+  batch 6 genomes @16 seeds | 5218.0s | 869.67s/eval
+gen 0 | best 1479.22 [REACH5] | mean 1467.87 | unique 13 | evals 19

@@ -1,0 +1,27 @@
+[g1] c105 start 2026-07-15T11:02:09Z
+[g1] c105 CHAMPION train-30 821.81 | evals 113 | terms: MAXN,REACH1,SAT
+[g1] c105 trace done 2026-07-15T13:09:45Z
+[g1] c105 end 2026-07-15T13:09:45Z
+[g1] rc101 start 2026-07-15T13:09:45Z
+[g1] rc101 CHAMPION train-30 572.37 | evals 102 | terms: REACH2,FRAGCNT
+[g1] rc101 trace done 2026-07-15T14:57:06Z
+[g1] rc101 end 2026-07-15T14:57:06Z
+[g1] rc104 start 2026-07-15T14:57:06Z
+[g1] rc104 start 2026-07-15T19:35:40Z
+[g1] rc104 CHAMPION train-30 745.00 | evals 142 | terms: REACH2,REACH5,VFRAC,REACH2ROB
+[g1] rc104 trace done 2026-07-16T01:46:46Z
+[g1] rc104 end 2026-07-16T01:46:46Z
+[g1] r204 start 2026-07-16T01:46:46Z
+[g1] r204 CHAMPION train-30 1457.99 | evals 118 | terms: VFRAC
+[g1] r204 trace done 2026-07-17T03:48:40Z
+[g1] r204 end 2026-07-17T03:48:40Z
+[g1] rc205 start 2026-07-17T03:48:40Z
+[g1] rc205 start 2026-07-17T03:58:50Z
+[g1] rc205 CHAMPION train-30 1628.23 | evals 67 | terms: (base)
+[g1] rc205 end 2026-07-17T08:47:17Z
+GA40_g1_FINISHED 2026-07-17T08:47:17Z
+[g1] r202 start 2026-07-17T09:00:14Z
+[g1] r202 CHAMPION train-30 1433.19 | evals 80 | terms: REACH2
+[g1] r202 trace done 2026-07-17T15:25:32Z
+[g1] r202 end 2026-07-17T15:25:32Z
+[g1] c204 start 2026-07-17T15:25:32Z

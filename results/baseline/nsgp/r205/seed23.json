@@ -1,0 +1,26 @@
+{
+  "config": "nsgp",
+  "instance": "r205",
+  "seed": 23,
+  "test_mean": 1457.248,
+  "test_std": 3.862166316630426,
+  "best_train_fitness": 1458.0,
+  "best_tree": "(min (* (max (+ (- (min (* (min TC TSV) (- TA TO)) (min (max SL SCORE) (+ SL TO))) (- (* (/ TA SL) (- TFV SCORE)) (- (+ NS TFV) (max SL TO)))) (max (* (/ (min TR TR) (* SCORE NS)) (+ (/ TA TR) (min TC RemT))) (* (+ (+ TFV TO) (max TC SL)) (+ (/ TO TC) (max SL TC))))) (+ (/ (* (max (+ TFV TFV) (* TFV TSV)) (max (max SCORE NS) (* TFV NS))) (min TR (+ SL SCORE))) (min (- (max TR (/ TR DUR)) (max (+ TA TFV) (+ DUR RemT))) (+ (min (/ NS NS) (* NS SL)) (+ (+ TFV TFV) (- TSV TFV)))))) (- (/ (* (/ (max TO TR) (max (+ TFV NS) (- TC TFV))) TA) (max (* (min TR TO) (max DUR SCORE)) (+ (- (min TO TO) (* SL RemT)) (/ (/ NS RemT) (* SCORE NS))))) (- (+ (max (/ (- TO TR) (+ SL SCORE)) (* (max TFV SL) (max TO TSV))) (min (max (/ DUR SCORE) (min SL RemT)) (/ (+ DUR TR) (/ TA TR)))) (+ (/ (* (/ TO DUR) (max TFV TC)) (+ (/ TA TR) (+ NS SCORE))) (min (max (max TO NS) (/ TC DUR)) (max (* TC TC) (+ SCORE TC))))))) (/ (- (max (max (max (/ (min NS SL) (+ NS TR)) (+ (max TO TR) (* TFV TFV))) (max (+ (/ TSV TR) (+ DUR TR)) (min (* TR TA) (/ NS SCORE)))) (+ (/ (- (max TFV TFV) (+ TO TO)) (+ (+ TSV TFV) (/ SCORE TFV))) (/ (* (/ TC TR) (* TFV TSV)) TC))) (max (- (- (min (min SCORE DUR) (max TA SL)) (/ (- TO RemT) (* RemT SL))) (+ (* (min TR TO) (max DUR SCORE)) (min (+ SCORE TC) (* RemT TA)))) (+ (min (max (/ TO DUR) (/ SL TC)) (/ (min TC TR) (* RemT SCORE))) (max (- (min RemT TA) (/ TO TA)) (* (min TA TFV) (+ TA TC)))))) (- (+ (* (* (+ (/ TFV TO) (- DUR SCORE)) (+ (max TSV NS) TSV)) (+ (max (min NS TO) (/ TR TSV)) (max (max TO DUR) (* TO SCORE)))) (* (min (min (/ RemT TO) (- RemT TO)) (* (- NS TC) (* RemT TFV))) (min (max (min TA TFV) (- TA TC)) (max (max TFV DUR) (/ TSV TR))))) (min (- (min (- (max TC DUR) (min TA RemT)) (* (max SCORE TSV) (min SCORE SL))) (- (- (max TA TC) (+ DUR TO)) TFV)) (+ (+ SCORE (+ (min TO TSV) (* SCORE TO))) (+ (+ (max TFV SL) (/ RemT TO)) (- (* SCORE SL) (* TR TC))))))))",
+  "generations_run": 51,
+  "time_seconds": 257.72382616996765,
+  "params": {
+    "population_size": 1024,
+    "generations": 51,
+    "max_depth": 8,
+    "tournament_size": 7,
+    "elitism": 10,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "reproduction_rate": 0.05,
+    "num_vehicles": 3,
+    "sigma": 0.2,
+    "train_samples": 1,
+    "test_samples": 500,
+    "use_ns": true
+  }
+}

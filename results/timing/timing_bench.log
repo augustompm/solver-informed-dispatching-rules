@@ -1,0 +1,7 @@
+TIMING c101 [NSGP-baseline-11] vocab=11 seeds=30 | train 21s | heldout-eval 0.1s
+TIMING c101 [NSTW+MAXN+NFEAS+REACH5] vocab=15 seeds=30 | train 36s | heldout-eval 0.3s
+TIMING r201 [NSGP-baseline-11] vocab=11 seeds=30 | train 69s | heldout-eval 0.3s
+TIMING r201 [NSTW+MAXN+NFEAS+REACH5] vocab=15 seeds=30 | train 134s | heldout-eval 1.0s
+TIMING pr15 [NSGP-baseline-11] vocab=11 seeds=30 | train 188s | heldout-eval 1.7s
+TIMING pr15 [NSTW+MAXN+NFEAS+REACH5] vocab=15 seeds=30 | train 1092s | heldout-eval 12.5s
+TIMING_DONE

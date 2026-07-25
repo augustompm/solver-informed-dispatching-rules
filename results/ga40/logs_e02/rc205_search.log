@@ -1,0 +1,48 @@
+# ga rc205 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1298.6s | 99.89s/eval
+  batch 6 genomes @16 seeds | 1573.7s | 262.28s/eval
+gen 0 | best 1636.35 [(base)] | mean 1629.26 | unique 13 | evals 19
+  batch 5 genomes @16 seeds | 736.0s | 147.20s/eval
+gen 1 | best 1636.35 [(base)] | mean 1631.42 | unique 10 | evals 24
+  batch 4 genomes @16 seeds | 619.5s | 154.87s/eval
+gen 2 | best 1636.35 [(base)] | mean 1631.86 | unique 8 | evals 28
+  batch 2 genomes @16 seeds | 284.5s | 142.25s/eval
+gen 3 | best 1636.35 [(base)] | mean 1633.26 | unique 5 | evals 30
+  batch 2 genomes @16 seeds | 964.9s | 482.43s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 518.1s | 172.70s/eval
+gen 4 | best 1636.35 [(base)] | mean 1631.39 | unique 6 | evals 35
+  batch 1 genomes @16 seeds | 325.9s | 325.90s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 384.7s | 128.23s/eval
+gen 5 | best 1636.35 [(base)] | mean 1632.63 | unique 5 | evals 39
+  batch 2 genomes @16 seeds | 866.6s | 433.29s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 531.9s | 177.30s/eval
+gen 6 | best 1636.35 [(base)] | mean 1632.92 | unique 4 | evals 44
+  batch 2 genomes @16 seeds | 476.2s | 238.11s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 875.8s | 218.95s/eval
+gen 7 | best 1636.35 [(base)] | mean 1634.44 | unique 3 | evals 50
+  batch 2 genomes @16 seeds | 999.5s | 499.75s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 1127.0s | 375.65s/eval
+gen 8 | best 1636.35 [(base)] | mean 1633.43 | unique 3 | evals 55
+  batch 2 genomes @16 seeds | 886.9s | 443.44s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 1631.8s | 407.94s/eval
+gen 9 | best 1636.35 [(base)] | mean 1633.76 | unique 3 | evals 61
+  batch 2 genomes @16 seeds | 1097.8s | 548.89s/eval
+  reinject 2
+  batch 1 genomes @16 seeds | 311.1s | 311.08s/eval
+stop: stagnant 10 gens
+gen end | best 1636.35 [(base)] | mean 1634.48 | evals 64
+
+confirming top-3 at 30 seeds:
+  batch 3 genomes @30 seeds | 1791.9s | 597.29s/eval
+  1628.23 (proxy 1636.35) [(base)]
+  1623.47 (proxy 1627.26) [ATRISK]
+  1619.38 (proxy 1621.01) [REGRET,FRAGSCORE,HARVEST]
+
+CHAMPION train-30 1628.23 | evals 67 | terms: (base)
+PERF evals 67 | wall 17307s | 258.3s/eval | batch-gpu 17302s

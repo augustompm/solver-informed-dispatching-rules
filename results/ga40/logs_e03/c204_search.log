@@ -1,0 +1,6 @@
+# ga c204 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1778.5s | 136.81s/eval
+  batch 6 genomes @16 seeds | 1302.2s | 217.03s/eval
+gen 0 | best 1799.89 [NFEAS] | mean 1798.94 | unique 13 | evals 19
+  batch 7 genomes @16 seeds | 1508.5s | 215.50s/eval
+gen 1 | best 1799.89 [NFEAS] | mean 1798.99 | unique 12 | evals 26

@@ -1,0 +1,29 @@
+# cache logs/rc205.evcache | 67 entries loaded
+# ga rc205 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+gen 0 | best 1636.35 [(base)] | mean 1629.26 | unique 13 | evals 0
+gen 1 | best 1636.35 [(base)] | mean 1631.42 | unique 10 | evals 0
+gen 2 | best 1636.35 [(base)] | mean 1631.86 | unique 8 | evals 0
+gen 3 | best 1636.35 [(base)] | mean 1633.26 | unique 5 | evals 0
+  reinject 2
+gen 4 | best 1636.35 [(base)] | mean 1631.39 | unique 6 | evals 0
+  reinject 2
+gen 5 | best 1636.35 [(base)] | mean 1632.63 | unique 5 | evals 0
+  reinject 2
+gen 6 | best 1636.35 [(base)] | mean 1632.92 | unique 4 | evals 0
+  reinject 2
+gen 7 | best 1636.35 [(base)] | mean 1634.44 | unique 3 | evals 0
+  reinject 2
+gen 8 | best 1636.35 [(base)] | mean 1633.43 | unique 3 | evals 0
+  reinject 2
+gen 9 | best 1636.35 [(base)] | mean 1633.76 | unique 3 | evals 0
+  reinject 2
+stop: stagnant 10 gens
+gen end | best 1636.35 [(base)] | mean 1634.48 | evals 0
+
+confirming top-3 at 30 seeds:
+  1628.23 (proxy 1636.35) [(base)]
+  1623.47 (proxy 1627.26) [ATRISK]
+  1619.38 (proxy 1621.01) [REGRET,FRAGSCORE,HARVEST]
+
+CHAMPION train-30 1628.23 | evals 0 | terms: (base)
+PERF evals 0 | wall 0s | 0.0s/eval | batch-gpu 0s

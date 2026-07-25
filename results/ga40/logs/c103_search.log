@@ -1,0 +1,67 @@
+# ga c103 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1133.9s | 87.22s/eval
+  batch 6 genomes @16 seeds | 833.4s | 138.90s/eval
+gen 0 | best 910.04 [REACH3] | mean 906.93 | unique 13 | evals 19
+  batch 2 genomes @16 seeds | 243.5s | 121.73s/eval
+gen 1 | best 910.99 [MAXN,PBUST] | mean 908.43 | unique 10 | evals 21
+  batch 6 genomes @16 seeds | 748.7s | 124.78s/eval
+gen 2 | best 912.53 [PBUST,HARVEST] | mean 909.10 | unique 10 | evals 27
+  batch 6 genomes @16 seeds | 811.3s | 135.22s/eval
+gen 3 | best 912.53 [PBUST,HARVEST] | mean 909.48 | unique 8 | evals 33
+  batch 4 genomes @16 seeds | 852.9s | 213.21s/eval
+gen 4 | best 912.53 [PBUST,HARVEST] | mean 910.25 | unique 7 | evals 37
+  batch 4 genomes @16 seeds | 789.6s | 197.40s/eval
+gen 5 | best 912.53 [PBUST,HARVEST] | mean 910.68 | unique 6 | evals 41
+  batch 2 genomes @16 seeds | 1119.0s | 559.49s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 1349.1s | 192.73s/eval
+gen 6 | best 912.53 [PBUST,HARVEST] | mean 910.95 | unique 6 | evals 50
+  batch 2 genomes @16 seeds | 1446.3s | 723.14s/eval
+  reinject 2
+  batch 8 genomes @16 seeds | 2329.1s | 291.13s/eval
+gen 7 | best 912.53 [PBUST,HARVEST] | mean 910.72 | unique 7 | evals 60
+  batch 6 genomes @16 seeds | 1901.3s | 316.88s/eval
+gen 8 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.12 | unique 7 | evals 66
+  batch 8 genomes @16 seeds | 1267.8s | 158.48s/eval
+gen 9 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.24 | unique 7 | evals 74
+  batch 9 genomes @16 seeds | 1150.4s | 127.83s/eval
+gen 10 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.24 | unique 7 | evals 83
+  batch 7 genomes @16 seeds | 887.3s | 126.76s/eval
+gen 11 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.57 | unique 6 | evals 90
+  batch 2 genomes @16 seeds | 237.8s | 118.90s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 972.2s | 138.89s/eval
+gen 12 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.01 | unique 7 | evals 99
+  batch 7 genomes @16 seeds | 927.9s | 132.56s/eval
+gen 13 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.01 | unique 7 | evals 106
+  batch 9 genomes @16 seeds | 1310.0s | 145.56s/eval
+gen 14 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.21 | unique 6 | evals 115
+  batch 2 genomes @16 seeds | 351.4s | 175.71s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 941.9s | 134.55s/eval
+gen 15 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 910.75 | unique 6 | evals 124
+  batch 2 genomes @16 seeds | 439.1s | 219.57s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 1037.8s | 207.56s/eval
+gen 16 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.57 | unique 5 | evals 131
+  batch 2 genomes @16 seeds | 588.7s | 294.35s/eval
+  reinject 2
+  batch 9 genomes @16 seeds | 1227.5s | 136.39s/eval
+gen 17 | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 911.42 | unique 6 | evals 142
+  batch 2 genomes @16 seeds | 483.2s | 241.60s/eval
+  reinject 2
+  batch 8 genomes @16 seeds | 800.5s | 100.06s/eval
+stop: stagnant 10 gens
+gen end | best 912.69 [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK] | mean 910.96 | evals 152
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 1664.0s | 277.34s/eval
+  910.81 (proxy 912.69) [REGRET,NSROB,MAXN,REACH2,FRAGCNT,FRAGSCORE,REACH1,REACH5,NFEAS,HARVEST,ATRISK]
+  912.97 (proxy 912.56) [MAXN,SAT,HARVEST]
+  909.74 (proxy 912.53) [PBUST,HARVEST]
+  909.09 (proxy 910.73) [MAXN,REACH3]
+  907.86 (proxy 910.04) [REACH3]
+  903.67 (proxy 908.61) [REACH2,NSTW,FRAGCNT,FRAGSCORE,HARVEST,ATRISK,REACH2ROB]
+
+CHAMPION train-30 912.97 | evals 158 | terms: MAXN,SAT,HARVEST
+PERF evals 158 | wall 27855s | 176.3s/eval | batch-gpu 27846s

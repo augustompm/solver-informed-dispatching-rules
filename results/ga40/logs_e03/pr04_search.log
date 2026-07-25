@@ -1,0 +1,39 @@
+# ga pr04 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1615.6s | 124.28s/eval
+  batch 6 genomes @16 seeds | 1676.0s | 279.34s/eval
+gen 0 | best 1153.40 [PBUST] | mean 1140.70 | unique 13 | evals 19
+  batch 4 genomes @16 seeds | 879.9s | 219.97s/eval
+gen 1 | best 1153.40 [PBUST] | mean 1142.53 | unique 11 | evals 23
+  batch 9 genomes @16 seeds | 1943.6s | 215.95s/eval
+gen 2 | best 1153.40 [PBUST] | mean 1143.38 | unique 12 | evals 32
+  batch 5 genomes @16 seeds | 1063.0s | 212.61s/eval
+gen 3 | best 1153.40 [PBUST] | mean 1145.92 | unique 10 | evals 37
+  batch 4 genomes @16 seeds | 1207.2s | 301.79s/eval
+gen 4 | best 1153.40 [PBUST] | mean 1147.76 | unique 8 | evals 41
+  batch 3 genomes @16 seeds | 799.3s | 266.43s/eval
+gen 5 | best 1153.40 [PBUST] | mean 1148.40 | unique 7 | evals 44
+  batch 7 genomes @16 seeds | 1366.6s | 195.23s/eval
+gen 6 | best 1153.40 [PBUST] | mean 1148.40 | unique 7 | evals 51
+  batch 4 genomes @16 seeds | 2006.5s | 501.62s/eval
+gen 7 | best 1153.40 [PBUST] | mean 1148.79 | unique 6 | evals 55
+  batch 2 genomes @16 seeds | 2515.1s | 1257.53s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 2737.3s | 912.43s/eval
+gen 8 | best 1153.40 [PBUST] | mean 1147.61 | unique 7 | evals 60
+  batch 7 genomes @16 seeds | 2606.3s | 372.33s/eval
+gen 9 | best 1153.40 [PBUST] | mean 1147.66 | unique 7 | evals 67
+  batch 4 genomes @16 seeds | 979.8s | 244.95s/eval
+stop: stagnant 10 gens
+gen end | best 1153.40 [PBUST] | mean 1149.32 | evals 71
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 1739.7s | 289.95s/eval
+  1147.60 (proxy 1153.40) [PBUST]
+  1138.34 (proxy 1150.42) [MAXN,REACH2,SAT,NFEAS]
+  1138.92 (proxy 1148.95) [VFRAC,REACH2ROB]
+  1146.47 (proxy 1147.83) [NFEAS,HARVEST]
+  1141.56 (proxy 1145.93) [MAXN,FRAGSCORE,PBUST,SAT,NFEAS,HARVEST]
+  1139.45 (proxy 1145.07) [VFRAC]
+
+CHAMPION train-30 1147.60 | evals 77 | terms: PBUST
+PERF evals 77 | wall 23141s | 300.5s/eval | batch-gpu 23136s

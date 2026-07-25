@@ -1,0 +1,26 @@
+{
+  "config": "nsgp",
+  "instance": "c201",
+  "seed": 16,
+  "test_mean": 1782.36,
+  "test_std": 21.235165752333042,
+  "best_train_fitness": 1800.0,
+  "best_tree": "(- (min (+ (+ (+ (min (- (min NS TO) (* RemT SL)) (/ (+ NS SCORE) (min NS TO))) (max (min (max TC RemT) (- TC TC)) (max (+ RemT DUR) (- TSV TFV)))) (* (+ (- (min TR TSV) (* TA NS)) (min (max NS RemT) (min TSV TA))) (max (max (max TC TFV) (max DUR TSV)) (- (* TR TFV) (- TFV TSV))))) (+ (min (* (* (max TR DUR) (min TA TA)) (- (max DUR DUR) (* TC TA))) (* TC (* (min TR RemT) (- SCORE DUR)))) (min RemT (- (/ (+ TSV DUR) (* TSV TO)) (min (+ SL TC) (min SL DUR)))))) (min (- (* (+ (- (min TR TSV) (* TA NS)) (/ (* TR NS) (- RemT TSV))) (max (max (+ SL RemT) (max DUR TSV)) (- (* TR TFV) (- TFV TSV)))) (* (- (max (/ TSV DUR) (max SL TFV)) (- (+ TO NS) (* TA DUR))) (/ (- (min SL TFV) (- TO TA)) (min (- TFV SL) (max NS NS))))) (max (- (max (max SCORE NS) (min TA TO)) (+ (max TC TFV) (+ RemT DUR))) (max TR DUR)))) (* (/ (/ (/ (+ NS (- (- SCORE TFV) (- SL RemT))) (- (min TA TA) (min (max SCORE RemT) (* NS TC)))) (* (/ (* TA NS) (/ (/ RemT TC) (- RemT RemT))) (/ RemT (max (- TFV TR) (* RemT SCORE))))) (* (- (min (- (+ NS TFV) (/ TO TA)) (+ (min TO TO) (- TSV TO))) (min (/ (min NS TSV) (+ TA NS)) (- (min SCORE RemT) (min SL SL)))) (- (min (max (/ NS TR) (max SL DUR)) (* (* TFV SL) (min TSV SCORE))) (- (max (min SCORE DUR) (max DUR TR)) (- (* TO DUR) (max SL SCORE)))))) (min (min (* (- (/ (- TO TA) (- TO TA)) (+ (min NS DUR) (/ SL TSV))) (* (max (min SL TFV) (min TSV TC)) (/ (- RemT SL) (- TFV SCORE)))) (min (* (/ (max TC TO) (min TO TC)) (min (max SCORE TA) (* TO TO))) (* (max (/ TR TA) (min DUR TSV)) (* (max TC RemT) (+ NS TR))))) (+ (/ (+ (- TA SCORE) (max TO TSV)) (/ TR TFV)) TR))))",
+  "generations_run": 51,
+  "time_seconds": 260.49341320991516,
+  "params": {
+    "population_size": 1024,
+    "generations": 51,
+    "max_depth": 8,
+    "tournament_size": 7,
+    "elitism": 10,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "reproduction_rate": 0.05,
+    "num_vehicles": 3,
+    "sigma": 0.2,
+    "train_samples": 1,
+    "test_samples": 500,
+    "use_ns": true
+  }
+}

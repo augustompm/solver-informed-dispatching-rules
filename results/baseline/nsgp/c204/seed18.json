@@ -1,0 +1,26 @@
+{
+  "config": "nsgp",
+  "instance": "c204",
+  "seed": 18,
+  "test_mean": 1797.52,
+  "test_std": 20.81143511782229,
+  "best_train_fitness": 1810.0,
+  "best_tree": "(min (max (max (* (/ (min (* RemT TC) (- (min NS TC) (* DUR TA))) (max (+ TFV TR) (min (/ TSV TSV) (* TFV TR)))) (- (/ (+ (+ TC RemT) (max TO SL)) (/ (/ SL NS) (+ TFV TA))) (min (max (min TA TFV) (/ TFV TC)) (+ (min SCORE TC) (+ TSV SL))))) (/ (min (- (min (/ RemT RemT) (/ TR SL)) (/ (max RemT TSV) (min RemT TO))) (+ (+ (min SL TR) (max DUR TO)) (max (/ TO TC) (max TR SL)))) (/ NS (/ (+ (max TC DUR) TO) (/ (+ TR TSV) (* TR NS)))))) (- (* (* (- (* (+ TR TO) (* RemT RemT)) TSV) (/ (min (* TR SL) (- TR TFV)) (min (- TC SL) (min DUR SCORE)))) (- TFV SCORE)) (+ (/ (* (+ (+ TFV SCORE) (- TA TSV)) (/ (* TSV SCORE) (- DUR SCORE))) (- (min TA (min TSV NS)) (- TO DUR))) (* (- (- (+ TFV TR) (- DUR TA)) (- (- NS TR) DUR)) (max (- (- SL TR) (/ TA TSV)) (min (- TC TO) (* TSV TC))))))) (* (- (min (min (- (max (- TC TFV) (min TR DUR)) (/ (- RemT NS) (max NS SCORE))) (+ (+ (min SL TR) (max DUR TO)) (max (/ TO TC) (* TA TC)))) (min (+ TSV SL) (* (- SCORE TA) (* RemT SL)))) (- TFV (max (+ (- (min TR RemT) (* SCORE TC)) (* (- SCORE TA) (* RemT SL))) (* (- (+ TFV TR) (- DUR TA)) (- (* RemT TC) (min TSV TC)))))) (/ (- DUR TFV) (+ SCORE DUR))))",
+  "generations_run": 51,
+  "time_seconds": 261.59434628486633,
+  "params": {
+    "population_size": 1024,
+    "generations": 51,
+    "max_depth": 8,
+    "tournament_size": 7,
+    "elitism": 10,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "reproduction_rate": 0.05,
+    "num_vehicles": 3,
+    "sigma": 0.2,
+    "train_samples": 1,
+    "test_samples": 500,
+    "use_ns": true
+  }
+}

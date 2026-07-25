@@ -1,0 +1,29 @@
+# cache logs/rc202.evcache | 55 entries loaded
+# ga rc202 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+gen 0 | best 1668.83 [REACH2] | mean 1660.59 | unique 13 | evals 0
+gen 1 | best 1668.83 [REACH2] | mean 1662.25 | unique 9 | evals 0
+gen 2 | best 1668.83 [REACH2] | mean 1663.00 | unique 9 | evals 0
+gen 3 | best 1668.83 [REACH2] | mean 1663.34 | unique 7 | evals 0
+gen 4 | best 1668.83 [REACH2] | mean 1663.34 | unique 7 | evals 0
+gen 5 | best 1668.83 [REACH2] | mean 1663.63 | unique 8 | evals 0
+gen 6 | best 1668.83 [REACH2] | mean 1664.01 | unique 9 | evals 0
+gen 7 | best 1668.83 [REACH2] | mean 1664.39 | unique 10 | evals 0
+  batch 4 genomes @16 seeds | 1136.1s | 284.04s/eval
+gen 8 | best 1668.83 [REACH2] | mean 1665.36 | unique 8 | evals 4
+  batch 6 genomes @16 seeds | 993.7s | 165.61s/eval
+gen 9 | best 1668.83 [REACH2] | mean 1665.38 | unique 8 | evals 10
+  batch 3 genomes @16 seeds | 425.5s | 141.84s/eval
+stop: stagnant 10 gens
+gen end | best 1668.83 [REACH2] | mean 1665.46 | evals 13
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 1642.2s | 273.70s/eval
+  1668.72 (proxy 1668.83) [REACH2]
+  1665.55 (proxy 1666.52) [MAXN]
+  1660.72 (proxy 1666.49) [REACH2,VFRAC]
+  1663.12 (proxy 1664.63) [REACH2,REACH3]
+  1662.51 (proxy 1663.75) [REGRET,MAXN,PBUST]
+  1659.51 (proxy 1662.89) [MAXN,REACH2,PBUST,REACH1,REACH3]
+
+CHAMPION train-30 1668.72 | evals 19 | terms: REACH2
+PERF evals 19 | wall 4200s | 221.0s/eval | batch-gpu 4198s

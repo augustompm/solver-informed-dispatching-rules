@@ -1,0 +1,47 @@
+# ga c104 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1583.6s | 121.81s/eval
+  batch 6 genomes @16 seeds | 1144.9s | 190.82s/eval
+gen 0 | best 953.86 [(base)] | mean 950.02 | unique 13 | evals 19
+  batch 4 genomes @16 seeds | 879.0s | 219.76s/eval
+gen 1 | best 955.62 [REACH2,REACH5] | mean 952.23 | unique 8 | evals 23
+  batch 6 genomes @16 seeds | 1381.6s | 230.26s/eval
+gen 2 | best 955.62 [REACH2,REACH5] | mean 952.63 | unique 7 | evals 29
+  batch 4 genomes @16 seeds | 902.4s | 225.60s/eval
+gen 3 | best 956.32 [REACH2,FRAGSCORE] | mean 953.18 | unique 7 | evals 33
+  batch 2 genomes @16 seeds | 531.0s | 265.51s/eval
+gen 4 | best 956.32 [REACH2,FRAGSCORE] | mean 953.41 | unique 7 | evals 35
+  batch 2 genomes @16 seeds | 556.5s | 278.26s/eval
+gen 5 | best 956.32 [REACH2,FRAGSCORE] | mean 953.64 | unique 8 | evals 37
+  batch 3 genomes @16 seeds | 812.1s | 270.72s/eval
+gen 6 | best 956.32 [REACH2,FRAGSCORE] | mean 953.64 | unique 8 | evals 40
+  batch 4 genomes @16 seeds | 1341.2s | 335.29s/eval
+gen 7 | best 956.32 [REACH2,FRAGSCORE] | mean 954.06 | unique 8 | evals 44
+  batch 3 genomes @16 seeds | 1255.2s | 418.38s/eval
+gen 8 | best 956.32 [REACH2,FRAGSCORE] | mean 954.52 | unique 8 | evals 47
+  batch 5 genomes @16 seeds | 1545.6s | 309.12s/eval
+gen 9 | best 956.32 [REACH2,FRAGSCORE] | mean 954.58 | unique 7 | evals 52
+  batch 3 genomes @16 seeds | 618.8s | 206.28s/eval
+gen 10 | best 956.32 [REACH2,FRAGSCORE] | mean 955.21 | unique 4 | evals 55
+  batch 2 genomes @16 seeds | 758.4s | 379.20s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 1452.0s | 484.00s/eval
+gen 11 | best 956.32 [REACH2,FRAGSCORE] | mean 954.89 | unique 6 | evals 60
+  batch 2 genomes @16 seeds | 2017.2s | 1008.62s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 1544.8s | 386.21s/eval
+gen 12 | best 956.32 [REACH2,FRAGSCORE] | mean 955.50 | unique 5 | evals 66
+  batch 2 genomes @16 seeds | 749.8s | 374.92s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 1566.6s | 313.31s/eval
+stop: stagnant 10 gens
+gen end | best 956.32 [REACH2,FRAGSCORE] | mean 954.98 | evals 73
+
+confirming top-4 at 30 seeds:
+  batch 4 genomes @30 seeds | 1846.8s | 461.71s/eval
+  957.68 (proxy 956.32) [REACH2,FRAGSCORE]
+  952.96 (proxy 951.74) [REGRET,REACH2,FRAGSCORE]
+  951.21 (proxy 950.50) [REACH3,SAT,VFRAC]
+  951.06 (proxy 949.38) [REGRET,MAXN,NSTW,FRAGCNT,FRAGSCORE,SAT,REACH2ROB]
+
+CHAMPION train-30 957.68 | evals 77 | terms: REACH2,FRAGSCORE
+PERF evals 77 | wall 22492s | 292.1s/eval | batch-gpu 22488s

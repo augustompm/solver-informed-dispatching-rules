@@ -1,0 +1,76 @@
+# ga r104 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 725.8s | 55.83s/eval
+  batch 6 genomes @16 seeds | 926.2s | 154.36s/eval
+gen 0 | best 725.09 [REACH3] | mean 714.76 | unique 13 | evals 19
+  batch 3 genomes @16 seeds | 498.8s | 166.26s/eval
+gen 1 | best 725.09 [REACH3] | mean 715.98 | unique 11 | evals 22
+  batch 6 genomes @16 seeds | 1487.4s | 247.91s/eval
+gen 2 | best 728.28 [NSROB,REACH3,VFRAC] | mean 719.16 | unique 11 | evals 28
+  batch 6 genomes @16 seeds | 1301.4s | 216.90s/eval
+gen 3 | best 728.28 [NSROB,REACH3,VFRAC] | mean 723.07 | unique 10 | evals 34
+  batch 5 genomes @16 seeds | 713.5s | 142.70s/eval
+gen 4 | best 729.39 [REACH3,REACH5] | mean 725.73 | unique 10 | evals 39
+  batch 5 genomes @16 seeds | 1310.6s | 262.12s/eval
+gen 5 | best 729.39 [REACH3,REACH5] | mean 726.37 | unique 9 | evals 44
+  batch 9 genomes @16 seeds | 1093.5s | 121.50s/eval
+gen 6 | best 730.88 [NSROB,REACH3,VFRAC,NFEAS] | mean 727.50 | unique 10 | evals 53
+  batch 4 genomes @16 seeds | 1199.7s | 299.91s/eval
+gen 7 | best 730.88 [NSROB,REACH3,VFRAC,NFEAS] | mean 728.67 | unique 8 | evals 57
+  batch 9 genomes @16 seeds | 1990.9s | 221.21s/eval
+gen 8 | best 731.58 [PBUST,REACH3] | mean 729.36 | unique 7 | evals 66
+  batch 6 genomes @16 seeds | 987.3s | 164.56s/eval
+gen 9 | best 731.58 [PBUST,REACH3] | mean 729.57 | unique 7 | evals 72
+  batch 5 genomes @16 seeds | 946.5s | 189.30s/eval
+gen 10 | best 731.58 [PBUST,REACH3] | mean 729.57 | unique 7 | evals 77
+  batch 5 genomes @16 seeds | 1636.2s | 327.23s/eval
+gen 11 | best 731.58 [PBUST,REACH3] | mean 729.86 | unique 7 | evals 82
+  batch 2 genomes @16 seeds | 453.1s | 226.56s/eval
+gen 12 | best 731.58 [PBUST,REACH3] | mean 730.03 | unique 8 | evals 84
+  batch 5 genomes @16 seeds | 785.1s | 157.02s/eval
+gen 13 | best 731.58 [PBUST,REACH3] | mean 730.03 | unique 8 | evals 89
+  batch 5 genomes @16 seeds | 1230.8s | 246.16s/eval
+gen 14 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.46 | unique 9 | evals 94
+  batch 4 genomes @16 seeds | 603.8s | 150.95s/eval
+gen 15 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.46 | unique 9 | evals 98
+  batch 3 genomes @16 seeds | 928.3s | 309.45s/eval
+gen 16 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.87 | unique 7 | evals 101
+  batch 4 genomes @16 seeds | 559.0s | 139.74s/eval
+gen 17 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.88 | unique 7 | evals 105
+  batch 4 genomes @16 seeds | 682.3s | 170.57s/eval
+gen 18 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 731.03 | unique 6 | evals 109
+  batch 2 genomes @16 seeds | 330.7s | 165.35s/eval
+  reinject 2
+  batch 6 genomes @16 seeds | 898.4s | 149.73s/eval
+gen 19 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.81 | unique 6 | evals 117
+  batch 2 genomes @16 seeds | 381.6s | 190.79s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 1111.5s | 158.79s/eval
+gen 20 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.43 | unique 6 | evals 126
+  batch 2 genomes @16 seeds | 729.5s | 364.73s/eval
+  reinject 2
+  batch 6 genomes @16 seeds | 1575.6s | 262.61s/eval
+gen 21 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 729.57 | unique 6 | evals 134
+  batch 2 genomes @16 seeds | 299.0s | 149.52s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 861.6s | 123.09s/eval
+gen 22 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.05 | unique 5 | evals 143
+  batch 2 genomes @16 seeds | 551.8s | 275.88s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 435.6s | 145.18s/eval
+gen 23 | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.23 | unique 5 | evals 148
+  batch 2 genomes @16 seeds | 273.5s | 136.77s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 783.4s | 156.67s/eval
+stop: stagnant 10 gens
+gen end | best 731.83 [NSROB,REACH2,REACH3,NFEAS] | mean 730.68 | evals 155
+
+confirming top-5 at 30 seeds:
+  batch 5 genomes @30 seeds | 1088.9s | 217.77s/eval
+  728.68 (proxy 731.83) [NSROB,REACH2,REACH3,NFEAS]
+  729.42 (proxy 731.58) [PBUST,REACH3]
+  729.08 (proxy 730.88) [NSROB,REACH3,VFRAC,NFEAS]
+  728.67 (proxy 729.87) [MAXN,REACH2,FRAGCNT,PBUST,REACH3,SAT,REACH2ROB]
+  723.49 (proxy 722.08) [REGRET,PBUST,REACH3,BOLSAO]
+
+CHAMPION train-30 729.42 | evals 160 | terms: PBUST,REACH3
+PERF evals 160 | wall 29391s | 183.7s/eval | batch-gpu 29381s

@@ -1,0 +1,85 @@
+# ga r101 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 198.3s | 15.25s/eval
+  batch 6 genomes @16 seeds | 187.4s | 31.23s/eval
+gen 0 | best 451.57 [BOLSAO] | mean 446.29 | unique 13 | evals 19
+  batch 6 genomes @16 seeds | 212.3s | 35.38s/eval
+gen 1 | best 454.87 [MAXN,REACH1,REACH3,BOLSAO,ATRISK] | mean 449.29 | unique 13 | evals 25
+  batch 7 genomes @16 seeds | 196.2s | 28.02s/eval
+gen 2 | best 454.87 [MAXN,REACH1,REACH3,BOLSAO,ATRISK] | mean 449.79 | unique 13 | evals 32
+  batch 6 genomes @16 seeds | 285.5s | 47.59s/eval
+gen 3 | best 454.87 [MAXN,REACH1,REACH3,BOLSAO,ATRISK] | mean 451.93 | unique 11 | evals 38
+  batch 6 genomes @16 seeds | 299.8s | 49.96s/eval
+gen 4 | best 454.87 [MAXN,REACH1,REACH3,BOLSAO,ATRISK] | mean 452.61 | unique 10 | evals 44
+  batch 6 genomes @16 seeds | 314.6s | 52.44s/eval
+gen 5 | best 454.87 [MAXN,REACH1,REACH3,BOLSAO,ATRISK] | mean 452.83 | unique 9 | evals 50
+  batch 10 genomes @16 seeds | 488.6s | 48.86s/eval
+gen 6 | best 454.87 [MAXN,REACH1,REACH3,BOLSAO,ATRISK] | mean 452.86 | unique 9 | evals 60
+  batch 6 genomes @16 seeds | 334.0s | 55.66s/eval
+gen 7 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 453.27 | unique 9 | evals 66
+  batch 8 genomes @16 seeds | 701.8s | 87.73s/eval
+gen 8 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 453.61 | unique 8 | evals 74
+  batch 9 genomes @16 seeds | 519.5s | 57.72s/eval
+gen 9 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 453.76 | unique 8 | evals 83
+  batch 6 genomes @16 seeds | 443.8s | 73.96s/eval
+gen 10 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 453.98 | unique 8 | evals 89
+  batch 5 genomes @16 seeds | 322.9s | 64.59s/eval
+gen 11 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 454.04 | unique 7 | evals 94
+  batch 4 genomes @16 seeds | 264.1s | 66.02s/eval
+gen 12 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 454.44 | unique 6 | evals 98
+  batch 2 genomes @16 seeds | 221.1s | 110.53s/eval
+  reinject 2
+  batch 8 genomes @16 seeds | 620.0s | 77.49s/eval
+gen 13 | best 455.82 [MAXN,REACH2,NFEAS,BOLSAO,ATRISK] | mean 453.92 | unique 7 | evals 108
+  batch 5 genomes @16 seeds | 404.2s | 80.84s/eval
+gen 14 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 454.55 | unique 7 | evals 113
+  batch 6 genomes @16 seeds | 433.1s | 72.19s/eval
+gen 15 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 454.62 | unique 7 | evals 119
+  batch 5 genomes @16 seeds | 393.1s | 78.63s/eval
+gen 16 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 454.85 | unique 7 | evals 124
+  batch 9 genomes @16 seeds | 680.8s | 75.64s/eval
+gen 17 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 454.85 | unique 7 | evals 133
+  batch 4 genomes @16 seeds | 193.4s | 48.34s/eval
+gen 18 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 454.85 | unique 7 | evals 137
+  batch 8 genomes @16 seeds | 624.0s | 78.00s/eval
+gen 19 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 455.04 | unique 7 | evals 145
+  batch 10 genomes @16 seeds | 767.0s | 76.70s/eval
+gen 20 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 455.04 | unique 7 | evals 155
+  batch 6 genomes @16 seeds | 395.2s | 65.86s/eval
+gen 21 | best 455.84 [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK] | mean 455.04 | unique 7 | evals 161
+  batch 6 genomes @16 seeds | 560.4s | 93.40s/eval
+gen 22 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.15 | unique 8 | evals 167
+  batch 9 genomes @16 seeds | 761.5s | 84.61s/eval
+gen 23 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.28 | unique 8 | evals 176
+  batch 9 genomes @16 seeds | 622.3s | 69.15s/eval
+gen 24 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.44 | unique 8 | evals 185
+  batch 8 genomes @16 seeds | 745.7s | 93.21s/eval
+gen 25 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.44 | unique 8 | evals 193
+  batch 6 genomes @16 seeds | 606.1s | 101.02s/eval
+gen 26 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.44 | unique 8 | evals 199
+  batch 3 genomes @16 seeds | 291.6s | 97.19s/eval
+gen 27 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.44 | unique 8 | evals 202
+  batch 4 genomes @16 seeds | 364.6s | 91.16s/eval
+gen 28 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.57 | unique 7 | evals 206
+  batch 4 genomes @16 seeds | 302.2s | 75.54s/eval
+gen 29 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.57 | unique 7 | evals 210
+  batch 3 genomes @16 seeds | 280.7s | 93.58s/eval
+gen 30 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.57 | unique 7 | evals 213
+  batch 2 genomes @16 seeds | 203.3s | 101.66s/eval
+gen 31 | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 455.57 | unique 6 | evals 215
+  batch 2 genomes @16 seeds | 100.9s | 50.47s/eval
+  reinject 2
+  batch 8 genomes @16 seeds | 748.2s | 93.52s/eval
+stop: stagnant 10 gens
+gen end | best 456.20 [PBUST,REACH1,REACH3,ATRISK] | mean 454.99 | evals 225
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 807.7s | 134.62s/eval
+  452.00 (proxy 456.20) [PBUST,REACH1,REACH3,ATRISK]
+  451.91 (proxy 455.84) [MAXN,FRAGCNT,PBUST,NFEAS,BOLSAO,ATRISK]
+  451.53 (proxy 455.82) [MAXN,REACH2,NFEAS,BOLSAO,ATRISK]
+  451.30 (proxy 454.87) [MAXN,REACH1,REACH3,BOLSAO,ATRISK]
+  452.84 (proxy 454.44) [REGRET,MAXN,PBUST,BOLSAO,ATRISK]
+  451.15 (proxy 452.30) [REGRET,MAXN,REACH2,NSTW,FRAGCNT,FRAGSCORE,REACH3,REACH5,NFEAS,REACH2ROB]
+
+CHAMPION train-30 452.84 | evals 231 | terms: REGRET,MAXN,PBUST,BOLSAO,ATRISK
+PERF evals 231 | wall 15913s | 68.9s/eval | batch-gpu 15896s

@@ -1,0 +1,26 @@
+{
+  "config": "nsgp",
+  "instance": "r202",
+  "seed": 1,
+  "test_mean": 1433.338,
+  "test_std": 15.74597177866482,
+  "best_train_fitness": 1455.0,
+  "best_tree": "(/ (+ (- (- TR TFV) (max (- NS TO) (* TA TSV))) TA) (+ (+ (+ (max TSV (/ SCORE TC)) (* (* (max (- TR TA) RemT) (+ (+ TO NS) RemT)) (* (/ SCORE TC) (min DUR TSV)))) (/ (+ RemT RemT) (* (* DUR (* (min DUR TA) (min DUR TSV))) (min DUR DUR)))) (+ (+ (+ (/ (- TC NS) (/ SCORE TC)) (max NS RemT)) (/ (/ NS TO) (max (- NS TO) (* TA TSV)))) (* (* (max NS RemT) (+ RemT RemT)) (* (/ SCORE TC) (min DUR DUR))))))",
+  "generations_run": 51,
+  "time_seconds": 126.56960654258728,
+  "params": {
+    "population_size": 1024,
+    "generations": 51,
+    "max_depth": 8,
+    "tournament_size": 7,
+    "elitism": 10,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "reproduction_rate": 0.05,
+    "num_vehicles": 3,
+    "sigma": 0.2,
+    "train_samples": 1,
+    "test_samples": 500,
+    "use_ns": true
+  }
+}

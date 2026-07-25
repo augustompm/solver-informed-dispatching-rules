@@ -1,0 +1,24 @@
+# LOOKIT (reference solver vs NS-GP) c102 | tmax=1236 m=3 | reference: 34/100 served
+
+## Reference route, sigma=0 replay (mechanics)
+  veh0: n=11 score= 300 travel=  175 wait=   53 makespan= 1218
+  veh1: n=12 score= 280 travel=  148 wait=    0 makespan= 1228
+  veh2: n=11 score= 340 travel=  222 wait=    5 makespan= 1217
+
+## The 30 NS-GP rules (sigma=0 decoder)
+  served: min 29 | median 31 | max 33   (reference: 34)
+  score sigma=0: min 830 | median 865 | max 890   (reference: 920)
+  NS-GP median seed11: 30 served, score 870, travel 736, wait 168
+  reference total: travel 545, wait 58
+
+## The diff: reference-served customers NS-GP does not reach
+  lost by ALL 30 seeds: 1 -> [55]
+    profile: score 10.0 | window 63 | open 95 | dist-depot 35.1 | dur 90
+  lost by the median: 8
+    profile: score 20.0 | window 331 | open 262 | dist-depot 30.8 | dur 90
+  always-served (30/30): 10 | never served by NS-GP: 40
+  profile of always-served: score 36.0 | window 478 | open 198 | dist-depot 30.6 | dur 90
+  instance profile overall: score 18.1 | window 326 | open 301 | dist-depot 28.9 | dur 90
+
+## Where on the reference route the lost-by-all live (position = route fraction)
+  veh1: 55@0.09

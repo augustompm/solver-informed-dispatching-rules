@@ -1,0 +1,47 @@
+# cache logs/pr13.evcache | 140 entries loaded
+# ga pr13 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+gen 0 | best 1043.24 [NFEAS] | mean 1037.92 | unique 13 | evals 0
+gen 1 | best 1043.24 [NFEAS] | mean 1039.70 | unique 8 | evals 0
+gen 2 | best 1043.24 [NFEAS] | mean 1040.19 | unique 8 | evals 0
+gen 3 | best 1043.24 [NFEAS] | mean 1041.64 | unique 6 | evals 0
+  reinject 2
+gen 4 | best 1043.40 [MAXN,NFEAS] | mean 1041.33 | unique 6 | evals 0
+  reinject 2
+gen 5 | best 1043.40 [MAXN,NFEAS] | mean 1041.66 | unique 6 | evals 0
+  reinject 2
+gen 6 | best 1045.25 [MAXN,REACH2,REACH3,SAT] | mean 1042.26 | unique 5 | evals 0
+  reinject 2
+gen 7 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1042.56 | unique 6 | evals 0
+  reinject 2
+gen 8 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1041.87 | unique 6 | evals 0
+  reinject 2
+gen 9 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1042.37 | unique 6 | evals 0
+  reinject 2
+gen 10 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1042.95 | unique 6 | evals 0
+  reinject 2
+gen 11 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1042.29 | unique 6 | evals 0
+  reinject 2
+gen 12 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1042.92 | unique 6 | evals 0
+  reinject 2
+gen 13 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1043.16 | unique 6 | evals 0
+  reinject 2
+gen 14 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1042.68 | unique 6 | evals 0
+  reinject 2
+gen 15 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1043.10 | unique 6 | evals 0
+  reinject 2
+gen 16 | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1044.05 | unique 6 | evals 0
+  reinject 2
+stop: stagnant 10 gens
+gen end | best 1046.65 [MAXN,PBUST,VFRAC,NFEAS] | mean 1044.58 | evals 0
+
+confirming top-6 at 30 seeds:
+  batch 6 genomes @30 seeds | 2681.6s | 446.93s/eval
+  1040.59 (proxy 1046.65) [MAXN,PBUST,VFRAC,NFEAS]
+  1040.08 (proxy 1045.35) [NSROB,REACH3,REACH5,VFRAC]
+  1043.49 (proxy 1045.25) [MAXN,REACH2,REACH3,SAT]
+  1041.96 (proxy 1043.40) [MAXN,NFEAS]
+  1041.92 (proxy 1043.24) [NFEAS]
+  1037.47 (proxy 1039.79) [NSROB,REACH2,PBUST,REACH1,VFRAC,HARVEST]
+
+CHAMPION train-30 1043.49 | evals 6 | terms: MAXN,REACH2,REACH3,SAT
+PERF evals 6 | wall 2682s | 447.1s/eval | batch-gpu 2682s

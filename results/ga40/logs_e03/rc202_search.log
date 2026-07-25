@@ -1,0 +1,18 @@
+# ga rc202 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1126.8s | 86.68s/eval
+  batch 6 genomes @16 seeds | 1120.9s | 186.82s/eval
+gen 0 | best 1668.83 [REACH2] | mean 1660.59 | unique 13 | evals 19
+  batch 3 genomes @16 seeds | 593.6s | 197.88s/eval
+gen 1 | best 1668.83 [REACH2] | mean 1662.25 | unique 9 | evals 22
+  batch 8 genomes @16 seeds | 1070.7s | 133.83s/eval
+gen 2 | best 1668.83 [REACH2] | mean 1663.00 | unique 9 | evals 30
+  batch 6 genomes @16 seeds | 921.1s | 153.52s/eval
+gen 3 | best 1668.83 [REACH2] | mean 1663.34 | unique 7 | evals 36
+  batch 4 genomes @16 seeds | 809.6s | 202.41s/eval
+gen 4 | best 1668.83 [REACH2] | mean 1663.34 | unique 7 | evals 40
+  batch 4 genomes @16 seeds | 596.3s | 149.07s/eval
+gen 5 | best 1668.83 [REACH2] | mean 1663.63 | unique 8 | evals 44
+  batch 7 genomes @16 seeds | 1036.9s | 148.13s/eval
+gen 6 | best 1668.83 [REACH2] | mean 1664.01 | unique 9 | evals 51
+  batch 4 genomes @16 seeds | 1087.9s | 271.97s/eval
+gen 7 | best 1668.83 [REACH2] | mean 1664.39 | unique 10 | evals 55

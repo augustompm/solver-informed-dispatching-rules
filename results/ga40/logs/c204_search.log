@@ -1,0 +1,54 @@
+# cache logs/c204.evcache | 26 entries loaded
+# ga c204 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+gen 0 | best 1799.89 [NFEAS] | mean 1798.94 | unique 13 | evals 0
+gen 1 | best 1799.89 [NFEAS] | mean 1798.99 | unique 12 | evals 0
+  batch 9 genomes @16 seeds | 1916.4s | 212.94s/eval
+gen 2 | best 1799.89 [NFEAS] | mean 1799.12 | unique 12 | evals 9
+  batch 6 genomes @16 seeds | 1148.0s | 191.33s/eval
+gen 3 | best 1800.15 [VFRAC,NFEAS] | mean 1799.47 | unique 8 | evals 15
+  batch 7 genomes @16 seeds | 1536.9s | 219.56s/eval
+gen 4 | best 1800.15 [VFRAC,NFEAS] | mean 1799.62 | unique 8 | evals 22
+  batch 6 genomes @16 seeds | 975.6s | 162.61s/eval
+gen 5 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1799.74 | unique 9 | evals 28
+  batch 4 genomes @16 seeds | 673.7s | 168.44s/eval
+gen 6 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1799.86 | unique 8 | evals 32
+  batch 4 genomes @16 seeds | 1527.8s | 381.96s/eval
+gen 7 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1799.92 | unique 8 | evals 36
+  batch 3 genomes @16 seeds | 1365.4s | 455.14s/eval
+gen 8 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1799.98 | unique 9 | evals 39
+  batch 5 genomes @16 seeds | 974.8s | 194.97s/eval
+gen 9 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1800.05 | unique 8 | evals 44
+  batch 4 genomes @16 seeds | 865.3s | 216.31s/eval
+gen 10 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1800.18 | unique 6 | evals 48
+  batch 2 genomes @16 seeds | 882.0s | 440.98s/eval
+  reinject 2
+  batch 2 genomes @16 seeds | 1212.3s | 606.17s/eval
+gen 11 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1800.00 | unique 6 | evals 52
+  batch 2 genomes @16 seeds | 2358.6s | 1179.30s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 1602.0s | 400.49s/eval
+gen 12 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1799.85 | unique 6 | evals 58
+  batch 2 genomes @16 seeds | 976.8s | 488.41s/eval
+  reinject 2
+  batch 6 genomes @16 seeds | 2037.5s | 339.58s/eval
+gen 13 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1800.19 | unique 6 | evals 66
+  batch 2 genomes @16 seeds | 1590.5s | 795.25s/eval
+  reinject 2
+  batch 7 genomes @16 seeds | 3138.9s | 448.42s/eval
+gen 14 | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1800.01 | unique 6 | evals 75
+  batch 2 genomes @16 seeds | 1619.4s | 809.70s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 1167.4s | 389.13s/eval
+stop: stagnant 10 gens
+gen end | best 1800.90 [FRAGCNT,VFRAC,NFEAS,HARVEST] | mean 1800.34 | evals 80
+
+confirming top-5 at 30 seeds:
+  batch 5 genomes @30 seeds | 2657.4s | 531.48s/eval
+  1798.81 (proxy 1800.90) [FRAGCNT,VFRAC,NFEAS,HARVEST]
+  1797.59 (proxy 1800.08) [FRAGCNT,HARVEST]
+  1798.31 (proxy 1799.89) [NFEAS]
+  1798.18 (proxy 1799.64) [REACH2,FRAGSCORE,REACH3,REACH5,VFRAC,BOLSAO]
+  1798.27 (proxy 1797.77) [NSROB,MAXN,REACH2,SAT,BOLSAO]
+
+CHAMPION train-30 1798.81 | evals 85 | terms: FRAGCNT,VFRAC,NFEAS,HARVEST
+PERF evals 85 | wall 30236s | 355.7s/eval | batch-gpu 30227s

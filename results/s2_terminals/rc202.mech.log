@@ -1,0 +1,11 @@
+# MECHANISMS rc202 (M1 corr-pos-d0 [<0=far-first] | M2 waits | M3 sweep [1=perfect] | M4 mean savings)
+## reference (cuOpt)
+  veh0: M1 +0.08 | M2  3/39 waits (tot   31) | M3 0.59 | M4   60.1
+  veh1: M1 -0.36 | M2  4/29 waits (tot  126) | M3 0.70 | M4   57.7
+  veh2: M1 -0.10 | M2  6/32 waits (tot  153) | M3 0.67 | M4   43.6
+## NS-GP (5 representative seeds: 2 best, median, 2 worst by sigma=0 score)
+  seed12 (score 1700): M1 +0.07 | M2  9/97 (tot   67) | M3 0.61 | M4   48.2
+  seed19 (score 1696): M1 -0.05 | M2  9/96 (tot   74) | M3 0.66 | M4   47.7
+  seed15 (score 1660): M1 -0.09 | M2  5/95 (tot   35) | M3 0.64 | M4   48.2
+  seed20 (score 1623): M1 -0.07 | M2  7/92 (tot   58) | M3 0.69 | M4   43.6
+  seed27 (score 1620): M1 -0.01 | M2  9/92 (tot  102) | M3 0.45 | M4   47.1

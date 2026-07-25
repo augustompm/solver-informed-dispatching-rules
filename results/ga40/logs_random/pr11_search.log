@@ -1,0 +1,38 @@
+# ga pr11 | universe 18 | seeds random (0) | tree-13 uniform-x pm 0.50 | gens 50 stag 5
+  batch 13 genomes @16 seeds | 1245.4s | 95.80s/eval
+gen 0 | best 629.19 [REACH1,SAT,VFRAC,NFEAS,BOLSAO] | mean 623.82 | unique 13 | evals 13
+  batch 12 genomes @16 seeds | 1076.3s | 89.70s/eval
+gen 1 | best 629.19 [REACH1,SAT,VFRAC,NFEAS,BOLSAO] | mean 625.73 | unique 13 | evals 25
+  batch 12 genomes @16 seeds | 1345.4s | 112.12s/eval
+gen 2 | best 631.03 [NSROB,REACH2,PBUST,REACH3,NFEAS,HARVEST,BOLSAO] | mean 626.79 | unique 13 | evals 37
+  batch 12 genomes @16 seeds | 1046.5s | 87.21s/eval
+gen 3 | best 631.03 [NSROB,REACH2,PBUST,REACH3,NFEAS,HARVEST,BOLSAO] | mean 628.03 | unique 13 | evals 49
+  batch 12 genomes @16 seeds | 1212.4s | 101.03s/eval
+gen 4 | best 631.03 [NSROB,REACH2,PBUST,REACH3,NFEAS,HARVEST,BOLSAO] | mean 628.17 | unique 13 | evals 61
+  batch 11 genomes @16 seeds | 1064.4s | 96.77s/eval
+gen 5 | best 631.23 [NSROB,REACH2,PBUST,REACH1,NFEAS,HARVEST,BOLSAO] | mean 628.39 | unique 13 | evals 72
+  batch 8 genomes @16 seeds | 678.3s | 84.78s/eval
+gen 6 | best 631.23 [NSROB,REACH2,PBUST,REACH1,NFEAS,HARVEST,BOLSAO] | mean 628.65 | unique 12 | evals 80
+  batch 9 genomes @16 seeds | 710.9s | 78.99s/eval
+gen 7 | best 633.42 [NSROB,MAXN,FRAGSCORE,SAT,NFEAS] | mean 629.08 | unique 12 | evals 89
+  batch 10 genomes @16 seeds | 690.0s | 69.00s/eval
+gen 8 | best 633.42 [NSROB,MAXN,FRAGSCORE,SAT,NFEAS] | mean 629.28 | unique 12 | evals 99
+  batch 12 genomes @16 seeds | 998.1s | 83.18s/eval
+gen 9 | best 633.42 [NSROB,MAXN,FRAGSCORE,SAT,NFEAS] | mean 629.43 | unique 12 | evals 111
+  batch 12 genomes @16 seeds | 1067.4s | 88.95s/eval
+gen 10 | best 633.42 [NSROB,MAXN,FRAGSCORE,SAT,NFEAS] | mean 629.82 | unique 12 | evals 123
+  batch 10 genomes @16 seeds | 1077.8s | 107.78s/eval
+gen 11 | best 633.42 [NSROB,MAXN,FRAGSCORE,SAT,NFEAS] | mean 629.82 | unique 12 | evals 133
+  batch 9 genomes @16 seeds | 794.5s | 88.27s/eval
+stop: stagnant 5 gens
+gen end | best 633.42 [NSROB,MAXN,FRAGSCORE,SAT,NFEAS] | mean 630.27 | evals 142
+
+confirming top-4 at 30 seeds:
+  batch 4 genomes @30 seeds | 491.0s | 122.76s/eval
+  629.08 (proxy 633.42) [NSROB,MAXN,FRAGSCORE,SAT,NFEAS]
+  628.23 (proxy 631.23) [NSROB,REACH2,PBUST,REACH1,NFEAS,HARVEST,BOLSAO]
+  629.67 (proxy 630.73) [FRAGCNT,REACH1,REACH3,SAT,VFRAC,NFEAS,HARVEST,BOLSAO]
+  626.43 (proxy 630.36) [NSROB,MAXN,SAT,NFEAS,HARVEST]
+
+CHAMPION train-30 629.67 | evals 146 | terms: FRAGCNT,REACH1,REACH3,SAT,VFRAC,NFEAS,HARVEST,BOLSAO
+PERF evals 146 | wall 13513s | 92.6s/eval | batch-gpu 13498s

@@ -1,0 +1,48 @@
+# ga c205 | universe 18 | seeds neutral (19) nofull | tree-13 uniform-x pm 0.50 | gens 50 stag 10
+  batch 13 genomes @16 seeds | 1214.3s | 93.41s/eval
+  batch 6 genomes @16 seeds | 830.7s | 138.44s/eval
+gen 0 | best 1805.59 [NFEAS] | mean 1804.69 | unique 13 | evals 19
+  batch 2 genomes @16 seeds | 277.8s | 138.88s/eval
+gen 1 | best 1805.59 [NFEAS] | mean 1805.14 | unique 7 | evals 21
+  batch 7 genomes @16 seeds | 743.8s | 106.26s/eval
+gen 2 | best 1805.59 [NFEAS] | mean 1805.25 | unique 7 | evals 28
+  batch 4 genomes @16 seeds | 367.5s | 91.87s/eval
+gen 3 | best 1805.59 [NFEAS] | mean 1805.31 | unique 6 | evals 32
+  batch 2 genomes @16 seeds | 836.6s | 418.30s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 551.0s | 137.75s/eval
+gen 4 | best 1805.59 [NFEAS] | mean 1805.31 | unique 6 | evals 38
+  batch 1 genomes @16 seeds | 196.9s | 196.94s/eval
+  reinject 2
+  batch 2 genomes @16 seeds | 237.3s | 118.64s/eval
+gen 5 | best 1805.59 [NFEAS] | mean 1805.00 | unique 5 | evals 41
+  batch 2 genomes @16 seeds | 729.2s | 364.61s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 597.4s | 119.47s/eval
+gen 6 | best 1805.59 [NFEAS] | mean 1805.27 | unique 5 | evals 48
+  batch 2 genomes @16 seeds | 386.9s | 193.47s/eval
+  reinject 2
+  batch 5 genomes @16 seeds | 827.1s | 165.42s/eval
+gen 7 | best 1805.59 [NFEAS] | mean 1805.41 | unique 4 | evals 55
+  batch 2 genomes @16 seeds | 863.6s | 431.79s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 859.5s | 214.87s/eval
+gen 8 | best 1805.59 [NFEAS] | mean 1805.36 | unique 4 | evals 61
+  batch 2 genomes @16 seeds | 758.7s | 379.33s/eval
+  reinject 2
+  batch 4 genomes @16 seeds | 786.6s | 196.65s/eval
+gen 9 | best 1805.59 [NFEAS] | mean 1805.43 | unique 4 | evals 67
+  batch 2 genomes @16 seeds | 955.4s | 477.68s/eval
+  reinject 2
+  batch 3 genomes @16 seeds | 621.0s | 206.98s/eval
+stop: stagnant 10 gens
+gen end | best 1805.59 [NFEAS] | mean 1805.29 | evals 72
+
+confirming top-3 at 30 seeds:
+  batch 3 genomes @30 seeds | 1903.3s | 634.44s/eval
+  1804.85 (proxy 1805.59) [NFEAS]
+  1804.03 (proxy 1803.90) [FRAGSCORE,NFEAS,ATRISK]
+  1799.60 (proxy 1803.37) [REGRET,REACH2,FRAGSCORE,NFEAS,ATRISK]
+
+CHAMPION train-30 1804.85 | evals 75 | terms: NFEAS
+PERF evals 75 | wall 14553s | 194.0s/eval | batch-gpu 14544s
