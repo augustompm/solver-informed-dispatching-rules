@@ -1,7 +1,8 @@
-# Solver-informed GPHH for the stochastic team orienteering problem
+# SI-GP: solver-informed dispatching rules for stochastic team orienteering
 
-C++20/CUDA code, benchmark instances and campaign logs for evolving dispatching
-rules on the stochastic team orienteering problem with time windows (STOPTW).
+C++20/CUDA code, benchmark instances and campaign logs for SI-GP, a
+solver-informed genetic programming hyper-heuristic that evolves dispatching
+rules for the stochastic team orienteering problem with time windows (STOPTW).
 
 Rules are evolved with genetic programming under the protocol of Mei & Zhang
 (2018) and Jackson & Mei (2020). A structured-population genetic algorithm
