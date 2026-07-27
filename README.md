@@ -8,8 +8,8 @@ Rules are evolved with genetic programming under the protocol of Mei & Zhang
 (2018) and Jackson & Mei (2020). A structured-population genetic algorithm
 selects, for each instance, which constructed terminals the GP may use.
 Analyzing reference solver routes (PyVRP, NVIDIA cuOpt) showed which operations
-matter; the terminals implementing them are grounded in the scheduling and
-orienteering literature (3 field terms, 13 declared variants) plus 2 novel
+matter; of the 18 terminals implementing them, 16 are grounded in published
+terminals of the scheduling and orienteering literature and 2 are novel
 composites.
 
 ## Build
@@ -61,7 +61,9 @@ results/         campaign logs, caches, 30-seed traces, reference routes,
 Every number is a mean over 30 independent GP runs, evaluated once on a held-out
 set of 500 scenarios with common random numbers, against the NS-GP baseline
 reproduced under the identical protocol. Significance: paired Wilcoxon with Holm
-correction.
+correction. The complete per-instance table (official gains, win/loss counts,
+p-values, Holm correction, A12 effect sizes) is
+`results/ga40/per_instance_stats.csv`.
 
 ## References
 
