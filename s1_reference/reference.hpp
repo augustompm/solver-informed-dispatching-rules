@@ -11,12 +11,33 @@
 #include <string>
 #include <vector>
 #include "../engine/rng.hpp"
+#include "../engine/instance.hpp"
 
 struct RefInstance {
     int n = 0;                       // rows including the depot
     std::vector<double> prize, open_t, close_t, service;
     std::vector<double> dist;        // n x n, np.hypot
     double tmax = 0.0;
+
+    // Build from the engine reader (handles both Solomon and Cordeau formats).
+    explicit RefInstance(const Instance& e) {
+        n = (int)e.pois.size();
+        prize.resize(n); open_t.resize(n); close_t.resize(n); service.resize(n);
+        std::vector<double> x(n), y(n);
+        for (int i = 0; i < n; i++) {
+            const POI& p = e.pois[i];
+            x[i] = p.x; y[i] = p.y;
+            prize[i] = p.score;
+            open_t[i] = p.open_time; close_t[i] = p.close_time;
+            service[i] = p.duration;
+        }
+        prize[0] = 0.0;
+        tmax = e.tmax;
+        dist.resize((size_t)n * n);
+        for (int a = 0; a < n; a++)
+            for (int b = 0; b < n; b++)
+                dist[(size_t)a * n + b] = std::hypot(x[a] - x[b], y[a] - y[b]);
+    }
 
     explicit RefInstance(const std::string& path) {
         std::ifstream f(path);

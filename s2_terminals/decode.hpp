@@ -13,10 +13,11 @@
 #include "../engine/instance.hpp"
 #include "../engine/tree.hpp"
 
-// Reference route with the largest solve time limit available for the
-// instance (file name <inst>_cuopt_route_<seconds>.json).
+// Reference route the reading logs were produced with, largest solve time
+// limit available for the instance (file name <inst>_cuopt_route_<seconds>.json).
+// These live under s2: the reading predates the final reference-gap routes.
 inline std::string ref_route_path(const std::string& inst) {
-    std::string dir = "results/s1_reference/routes";
+    std::string dir = "results/s2_terminals/routes_read";
     std::string prefix = inst + "_cuopt_route_";
     int best_tl = -1;
     std::string best;
