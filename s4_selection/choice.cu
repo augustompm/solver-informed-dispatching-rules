@@ -1,4 +1,4 @@
-// Cross-validatory choice per instance (Stone 1974): pick the column by the
+// Cross-validatory choice per instance (Stone 1974): select the column by the
 // mean train score of its 30 final rules on a common TRAIN block (2M x 64),
 // read the held-out once. The NS-GP baseline enters as a backup member (Xu et
 // al. 2008), so the choice is never worse by construction.
@@ -85,16 +85,16 @@ int main(int argc, char** argv) {
         std::printf("  %-24s mean-TRAIN %8.2f | held-out %+.2f\n", label.c_str(), mtrain,
                     t->at("mean_gain").num);
     }
-    const Row* pick = &rows[0];
+    const Row* choice = &rows[0];
     for (auto& r : rows)
-        if (r.mtrain > pick->mtrain) pick = &r;
+        if (r.mtrain > choice->mtrain) choice = &r;
     std::printf("\nCROSS-VALIDATORY CHOICE (train-side): %s (train %.2f) -> held-out %+.2f\n",
-                pick->tag.c_str(), pick->mtrain, pick->heldout);
-    const Row* oracle = &rows[0];
+                choice->tag.c_str(), choice->mtrain, choice->heldout);
+    const Row* vbs = &rows[0];
     for (auto& r : rows)
-        if (r.heldout > oracle->heldout) oracle = &r;
+        if (r.heldout > vbs->heldout) vbs = &r;
     std::printf("virtual best (labeled): %s -> %+.2f | choice==VBS? %s\n",
-                oracle->tag.c_str(), oracle->heldout,
-                pick->tag == oracle->tag ? "True" : "False");
+                vbs->tag.c_str(), vbs->heldout,
+                choice->tag == vbs->tag ? "True" : "False");
     return 0;
 }
