@@ -7,7 +7,7 @@ rules for the stochastic team orienteering problem with time windows (STOPTW).
 Rules are evolved with genetic programming under the protocol of Mei & Zhang
 (2018) and Jackson & Mei (2020). A structured-population genetic algorithm
 selects, for each instance, which constructed terminals the GP may use.
-Analyzing reference solver routes (PyVRP, NVIDIA cuOpt) showed which operations
+Analysing reference solver routes (PyVRP, NVIDIA cuOpt) showed which operations
 matter; of the 18 terminals implementing them, 16 are grounded in published
 terminals of the scheduling and orienteering literature and 2 are novel
 composites.
